@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="EthnoFlora AI — Computational Ethnopharmacology, Cheminformatics & Biodiversity Intelligence Platform for EthnoHack 2026.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="EthnoFlora AI">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>EthnoFlora AI — Computational Ethnopharmacology & Cheminformatics</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #F4F1EA;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    #preloader {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .badge-card {
+      background: #A8D5BA;
+      border: 3.5px solid #000;
+      border-radius: 18px;
+      padding: 26px 36px;
+      box-shadow: 6px 6px 0px #000;
+      margin-bottom: 24px;
+      max-width: 340px;
+    }
+    .badge-icon-box {
+      width: 68px;
+      height: 68px;
+      margin: 0 auto 14px auto;
+      background: #2E6F40;
+      border: 2.5px solid #000;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 3px 3px 0px #000;
+    }
+    .badge-title {
+      font-size: 28px;
+      font-weight: 900;
+      color: #000;
+      margin: 0 0 6px 0;
+      letter-spacing: -0.5px;
+    }
+    .badge-subtitle {
+      font-size: 13px;
+      font-weight: 700;
+      color: #1F3D2B;
+      margin: 0;
+      line-height: 1.4;
+    }
+    .badge-pill {
+      display: inline-block;
+      margin-top: 14px;
+      background: #FFE800;
+      color: #000;
+      font-weight: 900;
+      padding: 8px 16px;
+      border: 2.5px solid #000;
+      border-radius: 10px;
+      box-shadow: 3px 3px 0px #000;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+    }
+    .progress-bar-container {
+      width: 220px;
+      height: 12px;
+      background: #FFF;
+      border: 2.5px solid #000;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 3px 3px 0px #000;
+      margin-bottom: 12px;
+    }
+    .progress-bar-fill {
+      width: 100%;
+      height: 100%;
+      background: #2E6F40;
+      animation: pulse 1.5s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0% { transform: translateX(-100%); }
+      50% { transform: translateX(0%); }
+      100% { transform: translateX(100%); }
+    }
+    .loading-hint {
+      font-size: 13px;
+      font-weight: 700;
+      color: #333;
+      letter-spacing: 0.2px;
+    }
+  </style>
+</head>
+<body>
+  <div id="preloader">
+    <div class="badge-card">
+      <div class="badge-icon-box">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+        </svg>
+      </div>
+      <h1 class="badge-title">EthnoFlora AI</h1>
+      <p class="badge-subtitle">Computational Ethnopharmacology & Cheminformatics</p>
+      <div class="badge-pill">🌿 EthnoHack 2026 Edition</div>
+    </div>
+    <div class="progress-bar-container">
+      <div class="progress-bar-fill"></div>
+    </div>
+    <div class="loading-hint">Initializing PubChem & Ethnobotanical Engine...</div>
+  </div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var p = document.getElementById('preloader');
+      if (p) p.style.display = 'none';
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

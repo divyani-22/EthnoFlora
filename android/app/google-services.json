@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347954266489",
+    "project_id": "ethnoflora-ai",
+    "storage_bucket": "ethnoflora-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347954266489:android:8972545d95b87dd779afa8",
+        "android_client_info": {
+          "package_name": "com.ethnoflora.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaoegSJWhd7lp9QTQ_UOCKSZ3IymiEGGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
