@@ -1,0 +1,1056 @@
+[
+  {
+    "id": "plant_curcuma_longa",
+    "common_name": "Turmeric",
+    "scientific_name": "Curcuma longa L.",
+    "family": "Zingiberaceae",
+    "traditional_system": "Ayurveda & Traditional Chinese Medicine",
+    "traditional_uses": "Used for over 4,000 years across the Vedic tradition as Haridra for wound healing, digestive disorders, liver support, joint inflammation, and dermatological complaints.",
+    "plant_parts_used": [
+      "Rhizome"
+    ],
+    "active_metabolites": [
+      "Curcumin",
+      "Demethoxycurcumin",
+      "Bisdemethoxycurcumin",
+      "ar-Turmerone"
+    ],
+    "molecular_targets": [
+      "COX-2",
+      "TNF-alpha",
+      "NF-kB",
+      "LOX",
+      "iNOS"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "South Asia (India, Indonesia)",
+    "gbif_coordinates": {
+      "latitude": 11.1271,
+      "longitude": 78.6569,
+      "locality": "Tamil Nadu, Western Ghats biodiversity hotspot, India"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "India NBA (National Biodiversity Authority) Section 3/4 ABS Compliant - Form I Registered",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Potent anti-inflammatory and antioxidant polyphenol complex that blocks NF-kB transcription and attenuates pro-inflammatory cytokines. Clinical trials confirm efficacy in osteoarthritis, metabolic syndrome, and inflammatory bowel conditions."
+  },
+  {
+    "id": "plant_withania_somnifera",
+    "common_name": "Ashwagandha",
+    "scientific_name": "Withania somnifera (L.) Dunal",
+    "family": "Solanaceae",
+    "traditional_system": "Ayurveda & Unani",
+    "traditional_uses": "Premier Rasayana (rejuvenator) herb utilized for combating physical and mental exhaustion, debility, insomnia, cognitive decline, and male reproductive enhancement.",
+    "plant_parts_used": [
+      "Root",
+      "Leaves"
+    ],
+    "active_metabolites": [
+      "Withaferin A",
+      "Withanolide A",
+      "Withanoside IV",
+      "Withanone"
+    ],
+    "molecular_targets": [
+      "GABAA receptor",
+      "Hsp90",
+      "Cortisol / HPA Axis",
+      "NF-kB"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "South Asia, Middle East, and Northern Africa",
+    "gbif_coordinates": {
+      "latitude": 24.5854,
+      "longitude": 73.7125,
+      "locality": "Rajasthan drylands, India"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "India State Biodiversity Board (SBB) registered for sustainable agrarian collection",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Adaptogenic steroidal lactones modulate the hypothalamic-pituitary-adrenal (HPA) axis to significantly reduce serum cortisol and anxiety. Withaferin A also demonstrates potent pro-apoptotic proteasomal inhibition against neoplastic lines."
+  },
+  {
+    "id": "plant_artemisia_annua",
+    "common_name": "Sweet Wormwood / Qinghao",
+    "scientific_name": "Artemisia annua L.",
+    "family": "Asteraceae",
+    "traditional_system": "Traditional Chinese Medicine",
+    "traditional_uses": "Recorded in Ge Hong's Handbook of Prescriptions for Emergency (340 CE) to treat intermittent fevers and chills associated with malarial infection.",
+    "plant_parts_used": [
+      "Aerial parts",
+      "Leaves"
+    ],
+    "active_metabolites": [
+      "Artemisinin",
+      "Arteannuin B",
+      "Scopoletin",
+      "Chrysosplenetin"
+    ],
+    "molecular_targets": [
+      "PfATP6 (Plasmodium falciparum calcium pump)",
+      "Heme iron reactive cleavage",
+      "HIF-1alpha"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Temperate and Subtropical Asia (China, Vietnam)",
+    "gbif_coordinates": {
+      "latitude": 29.563,
+      "longitude": 106.5516,
+      "locality": "Chongqing / Sichuan Basin, China"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "Ministry of Ecology and Environment of PRC ABS Framework Compliant",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Contains the endoperoxide sesquiterpene lactone artemisinin which generates deadly carbon-centered free radicals in the presence of intraerythrocytic ferrous heme. Forms the gold-standard frontline therapy for uncomplicated falciparum malaria worldwide."
+  },
+  {
+    "id": "plant_hypericum_perforatum",
+    "common_name": "St. John's Wort",
+    "scientific_name": "Hypericum perforatum L.",
+    "family": "Hypericaceae",
+    "traditional_system": "European Traditional Medicine & Dioscorides",
+    "traditional_uses": "Prescribed by Hippocrates, Dioscorides, and Galen for demonic melancholy, sciatica, neuralgia, deep contusions, and burns.",
+    "plant_parts_used": [
+      "Flowering tops",
+      "Aerial parts"
+    ],
+    "active_metabolites": [
+      "Hyperforin",
+      "Hypericin",
+      "Pseudohypericin",
+      "Rutin",
+      "Quercetin"
+    ],
+    "molecular_targets": [
+      "SERT (5-HT transporter)",
+      "NET (Norepinephrine transporter)",
+      "DAT (Dopamine transporter)",
+      "PXR (Pregnane X Receptor)"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Europe, Western Asia, and Northern Africa",
+    "gbif_coordinates": {
+      "latitude": 47.3769,
+      "longitude": 8.5417,
+      "locality": "Alps foothills, Zurich canton, Switzerland"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "European Union ABS Regulation No 511/2014 Compliant",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Inhibits synaptosomal reuptake of serotonin, dopamine, and norepinephrine with efficacy comparable to conventional SSRIs in mild-to-moderate depression. Crucially induces hepatic CYP3A4 and P-glycoprotein via PXR, presenting substantial herb-drug interaction hazards."
+  },
+  {
+    "id": "plant_panax_ginseng",
+    "common_name": "Asian Ginseng",
+    "scientific_name": "Panax ginseng C.A.Mey.",
+    "family": "Araliaceae",
+    "traditional_system": "Traditional Chinese Medicine & Korean Sasang",
+    "traditional_uses": "King of herbs in the Shennong Bencao Jing; tonifies primordial Qi, nourishes the five Yin viscera, invigorates spleen-lung energy, and promotes longevity.",
+    "plant_parts_used": [
+      "Root",
+      "Rhizome"
+    ],
+    "active_metabolites": [
+      "Ginsenoside Rg1",
+      "Ginsenoside Rb1",
+      "Ginsenoside Rd",
+      "Panaxydol"
+    ],
+    "molecular_targets": [
+      "Glucocorticoid receptors",
+      "eNOS",
+      "AMPK",
+      "BDNF signaling"
+    ],
+    "iucn_status": "Endangered",
+    "native_region": "Northeast Asia (Northeastern China, Korea, Primorsky Krai)",
+    "gbif_coordinates": {
+      "latitude": 41.9892,
+      "longitude": 128.0967,
+      "locality": "Changbai Mountain range, Jilin Province, China"
+    },
+    "harvesting_risk": "Regulated Quota",
+    "nagoya_abs_status": "CITES Appendix II listed; wild collection strictly prohibited, cultigen ABS approved",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Protopanaxadiol and protopanaxatriol saponins upregulate endothelial nitric oxide synthase and activate cerebral AMPK pathways. Well-documented in clinical meta-analyses for alleviating chronic fatigue, improving glycemic control, and enhancing cognitive stamina."
+  },
+  {
+    "id": "plant_ginkgo_biloba",
+    "common_name": "Ginkgo / Maidenhair Tree",
+    "scientific_name": "Ginkgo biloba L.",
+    "family": "Ginkgoaceae",
+    "traditional_system": "Traditional Chinese Medicine",
+    "traditional_uses": "Seeds historically used in China for asthma and pulmonary phlegm; modern standardized leaf extract developed in Europe for peripheral and cerebrovascular insufficiency.",
+    "plant_parts_used": [
+      "Leaves"
+    ],
+    "active_metabolites": [
+      "Ginkgolide A",
+      "Ginkgolide B",
+      "Bilobalide",
+      "Quercetin glucoside",
+      "Kaempferol"
+    ],
+    "molecular_targets": [
+      "PAF (Platelet Activating Factor) receptor",
+      "GABAA receptor",
+      "Mitochondrial respiratory complex I"
+    ],
+    "iucn_status": "Endangered",
+    "native_region": "Eastern China (Zhejiang, Guizhou)",
+    "gbif_coordinates": {
+      "latitude": 30.3421,
+      "longitude": 119.4312,
+      "locality": "Tianmu Mountain Reserve, Zhejiang, China"
+    },
+    "harvesting_risk": "Regulated Quota",
+    "nagoya_abs_status": "National Forestry and Grassland Administration PRC ABS Permit Verified",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Diterpene trilactones competitively antagonize PAF receptors to enhance microvascular cerebral perfusion and reduce platelet aggregation. Extensively evaluated as standardized EGb 761 for slowing neurodegenerative cognitive decline and peripheral arterial disease."
+  },
+  {
+    "id": "plant_silybum_marianum",
+    "common_name": "Milk Thistle",
+    "scientific_name": "Silybum marianum (L.) Gaertn.",
+    "family": "Asteraceae",
+    "traditional_system": "European Traditional Medicine & Dioscorides",
+    "traditional_uses": "Recommended by Pliny the Elder and Nicholas Culpeper for clearing liver blockages, jaundice, and protecting the gallbladder.",
+    "plant_parts_used": [
+      "Seeds",
+      "Fruit"
+    ],
+    "active_metabolites": [
+      "Silybin A",
+      "Silybin B",
+      "Isosilybin",
+      "Silychristin",
+      "Silydianin"
+    ],
+    "molecular_targets": [
+      "RNA polymerase I",
+      "Hepatocyte cell membrane receptors",
+      "NF-kB",
+      "TGF-beta"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Mediterranean Basin, Southern Europe, Middle East",
+    "gbif_coordinates": {
+      "latitude": 37.9838,
+      "longitude": 23.7275,
+      "locality": "Attica rural valley, Greece"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "EU / Mediterranean ABS framework compliant commercial cultivation",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Silymarin flavonolignans stimulate ribosomal RNA polymerase I to accelerate hepatocyte regeneration and stabilize cell membranes against phalloidin and amanitin toxins. Clinically proven antidote for death cap mushroom poisoning and supportive care in non-alcoholic fatty liver disease."
+  },
+  {
+    "id": "plant_glycyrrhiza_glabra",
+    "common_name": "Licorice",
+    "scientific_name": "Glycyrrhiza glabra L.",
+    "family": "Fabaceae",
+    "traditional_system": "Ayurveda, TCM (as Gancao) & Greco-Arab Unani",
+    "traditional_uses": "Universal harmonizer in herbal decoctions; used for peptic ulcers, pharyngitis, coughs, Addisonian fatigue, and gastrointestinal cramps.",
+    "plant_parts_used": [
+      "Root",
+      "Stolon"
+    ],
+    "active_metabolites": [
+      "Glycyrrhizin",
+      "Glycyrrhetinic acid",
+      "Glabridin",
+      "Liquiritigenin"
+    ],
+    "molecular_targets": [
+      "11beta-HSD2 (11beta-hydroxysteroid dehydrogenase type 2)",
+      "HMGB1",
+      "Viral polymerase"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Southern Europe, Western Asia, and Mediterranean",
+    "gbif_coordinates": {
+      "latitude": 36.8969,
+      "longitude": 30.7133,
+      "locality": "Antalya plain, Southern Turkey"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "Turkish Ministry of Agriculture & Forestry compliant export quota",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Triterpenoid saponin glycyrrhizin potently inhibits 11beta-HSD2, preventing conversion of active cortisol to cortisone and elevating renal mineralocorticoid activation. Broad antiviral and cytoprotective properties, but requires careful monitoring due to pseudoaldosteronism and hypokalemia."
+  },
+  {
+    "id": "plant_bacopa_monnieri",
+    "common_name": "Brahmi / Water Hyssop",
+    "scientific_name": "Bacopa monnieri (L.) Wettst.",
+    "family": "Plantaginaceae",
+    "traditional_system": "Ayurveda",
+    "traditional_uses": "Classical Medhya Rasayana mentioned in the Charaka Samhita to enhance intellect (Dhi), memory retention (Dhriti), and recollection (Smriti).",
+    "plant_parts_used": [
+      "Whole herb",
+      "Aerial parts"
+    ],
+    "active_metabolites": [
+      "Bacoside A",
+      "Bacoside B",
+      "Bacopaside I",
+      "Bacopaside II"
+    ],
+    "molecular_targets": [
+      "Tryptophan hydroxylase",
+      "Choline acetyltransferase",
+      "Superoxide dismutase (SOD)",
+      "TrkB"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Wetlands of India, Southeast Asia, and Australia",
+    "gbif_coordinates": {
+      "latitude": 9.9312,
+      "longitude": 76.2673,
+      "locality": "Kerala backwater wetland system, India"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "National Biodiversity Authority of India Sustainable Wetland Harvesting Agreement",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Dammarane-type triterpenoid saponins enhance kinase activity and protein synthesis in hippocampal pyramidal cells, promoting dendritic arborization. Double-blind RCTs demonstrate significant improvements in delayed word recall and speed of visual information processing."
+  },
+  {
+    "id": "plant_cinchona_officinalis",
+    "common_name": "Quinine Bark / Cinchona",
+    "scientific_name": "Cinchona officinalis L.",
+    "family": "Rubiaceae",
+    "traditional_system": "Amazonian & Andean Indigenous Medicine (Quechua)",
+    "traditional_uses": "Used by indigenous Quechua and Inca peoples as a shivering relaxant, introduced to Europe by Jesuit missionaries in 1630 as 'Peruvian bark' for deadly fevers.",
+    "plant_parts_used": [
+      "Bark"
+    ],
+    "active_metabolites": [
+      "Quinine",
+      "Quinidine",
+      "Cinchonine",
+      "Cinchonidine"
+    ],
+    "molecular_targets": [
+      "Heme polymerase / biocrystallization (Plasmodium)",
+      "Cardiac voltage-gated Na+ channels (Nav1.5)"
+    ],
+    "iucn_status": "Vulnerable",
+    "native_region": "Tropical Andes (Ecuador, Peru, Colombia, Bolivia)",
+    "gbif_coordinates": {
+      "latitude": -3.9931,
+      "longitude": -79.2042,
+      "locality": "Loja cloud forest, Southern Ecuador"
+    },
+    "harvesting_risk": "Regulated Quota",
+    "nagoya_abs_status": "Ecuador MAE (Ministerio del Ambiente y Agua) ABS Access Contract Verified",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Quinoline alkaloids disrupt parasite hemozoin formation, causing cytotoxic ferriprotoporphyrin IX accumulation inside the intraerythrocytic food vacuole. Quinidine isomer serves as a Class IA antiarrhythmic agent blocking cardiac fast sodium channels."
+  },
+  {
+    "id": "plant_camellia_sinensis",
+    "common_name": "Green Tea",
+    "scientific_name": "Camellia sinensis (L.) Kuntze",
+    "family": "Theaceae",
+    "traditional_system": "Traditional Chinese Medicine & Japanese Kampo",
+    "traditional_uses": "Used for over 3,000 years to clear mental fog, aid digestion, resolve phlegm, detoxify heat, and promote fluid homeostasis.",
+    "plant_parts_used": [
+      "Leaves",
+      "Leaf buds"
+    ],
+    "active_metabolites": [
+      "Epigallocatechin gallate (EGCG)",
+      "Epicatechin",
+      "Epigallocatechin",
+      "L-Theanine",
+      "Caffeine"
+    ],
+    "molecular_targets": [
+      "EGFR",
+      "DNA methyltransferase (DNMT1)",
+      "OATP1A2",
+      "GABA receptors"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "East Asia and Southeast Asia",
+    "gbif_coordinates": {
+      "latitude": 30.2741,
+      "longitude": 120.1551,
+      "locality": "Longjing mountain tea plantation, Hangzhou, China"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "Exempted agricultural commodity under FAO Annex I; standard ABS trade compliance",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Flavan-3-ol catechin EGCG provides extreme free radical scavenging, suppresses vascular endothelial growth factor (VEGF), and exerts chemopreventive signaling modulation. Inhibits human intestinal OATP1A2, significantly blunting absorption of hydrophilic beta-blockers such as nadolol."
+  },
+  {
+    "id": "plant_allium_sativum",
+    "common_name": "Garlic",
+    "scientific_name": "Allium sativum L.",
+    "family": "Amaryllidaceae",
+    "traditional_system": "European (Codex Ebers), Ayurveda (Lashuna) & TCM",
+    "traditional_uses": "Documented in Egyptian papyri for building laborers' endurance; classical treatment for parasite infections, pulmonary coughs, and hypertension.",
+    "plant_parts_used": [
+      "Bulb",
+      "Cloves"
+    ],
+    "active_metabolites": [
+      "Allicin",
+      "Alliin",
+      "Ajoene",
+      "S-Allylcysteine"
+    ],
+    "molecular_targets": [
+      "HMG-CoA reductase",
+      "Thromboxane synthase",
+      "Endothelial eNOS",
+      "Bacterial thiol enzymes"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Central Asia (Uzbekistan, Tajikistan, Kyrgyzstan)",
+    "gbif_coordinates": {
+      "latitude": 39.6542,
+      "longitude": 66.9597,
+      "locality": "Samarkand foothill oasis, Uzbekistan"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "Central Asian Vavilov Center domestic cultivar heritage protection",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Crushing cloves triggers alliinase to convert alliin to diallyl thiosulfinate (allicin), exerting antimicrobial and lipid-lowering actions. Potentiates antithrombotic cascades via thromboxane synthetase inhibition, generating clinically relevant antiplatelet synergism with warfarin."
+  },
+  {
+    "id": "plant_salix_alba",
+    "common_name": "White Willow",
+    "scientific_name": "Salix alba L.",
+    "family": "Salicaceae",
+    "traditional_system": "European Medicine & Indigenous North American Herbalism",
+    "traditional_uses": "Recorded by Dioscorides and Edward Stone (1763) for intermittent agues, feverish chills, joint rheumatism, and headache.",
+    "plant_parts_used": [
+      "Bark"
+    ],
+    "active_metabolites": [
+      "Salicin",
+      "Salicortin",
+      "Tremulacin",
+      "Catechin"
+    ],
+    "molecular_targets": [
+      "COX-1",
+      "COX-2",
+      "Platelet thromboxane A2 synthesis"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Europe and Western to Central Asia",
+    "gbif_coordinates": {
+      "latitude": 51.752,
+      "longitude": -1.2577,
+      "locality": "River Thames riparian corridor, Oxfordshire, United Kingdom"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "UK ABS / Nagoya Protocol Statutory Instrument 2015/829 Compliant",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Pro-drug glucoside salicin is hydrolyzed in the gut to saligenin and oxidized by the liver into salicylic acid, the ancestral prototype of aspirin. Provides prolonged analgesic and anti-inflammatory relief without causing the severe gastric mucosal erosions typical of synthetic acetylsalicylic acid."
+  },
+  {
+    "id": "plant_digitalis_purpurea",
+    "common_name": "Common Foxglove",
+    "scientific_name": "Digitalis purpurea L.",
+    "family": "Plantaginaceae",
+    "traditional_system": "European Folk Medicine & Dioscorides",
+    "traditional_uses": "Immortalized by Dr. William Withering in 1785 ('An Account of the Foxglove') for treating dropsy (congestive heart failure oedema) and irregular pulse.",
+    "plant_parts_used": [
+      "Leaves"
+    ],
+    "active_metabolites": [
+      "Digitoxin",
+      "Digoxin",
+      "Gitoxin",
+      "Purpurea glycoside A"
+    ],
+    "molecular_targets": [
+      "Na+/K+-ATPase (Sodium-potassium pump alpha subunit)",
+      "Vagal efferent tone"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Western and Southwestern Europe",
+    "gbif_coordinates": {
+      "latitude": 52.4862,
+      "longitude": -1.8904,
+      "locality": "Staffordshire woodland border, West Midlands, United Kingdom"
+    },
+    "harvesting_risk": "Strictly Prohibited - Protected",
+    "nagoya_abs_status": "Strict pharmaceutical poison schedule licensing; botanical extraction strictly controlled",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Cardenolide cardiac glycosides selectively bind and inhibit myocardial membrane Na+/K+-ATPase, elevating intracellular calcium to produce positive inotropy. Extremely narrow therapeutic index (0.5-0.9 ng/mL); hypokalemia drastically exacerbates fatal ventricular arrhythmia risks."
+  },
+  {
+    "id": "plant_atropa_belladonna",
+    "common_name": "Deadly Nightshade",
+    "scientific_name": "Atropa belladonna L.",
+    "family": "Solanaceae",
+    "traditional_system": "European Medicine & Greco-Roman Toxicology",
+    "traditional_uses": "Used by Venetian ladies to dilate pupils for cosmetic allure; utilized medicinally for visceral spasms, bronchial asthma, and organophosphate toxicity.",
+    "plant_parts_used": [
+      "Leaves",
+      "Root"
+    ],
+    "active_metabolites": [
+      "Atropine",
+      "Hyoscyamine",
+      "Scopolamine"
+    ],
+    "molecular_targets": [
+      "Muscarinic acetylcholine receptors (M1, M2, M3, M4, M5)"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Southern, Central, and Eastern Europe, North Africa, Western Asia",
+    "gbif_coordinates": {
+      "latitude": 45.815,
+      "longitude": 15.9819,
+      "locality": "Medvednica mountain forest, Zagreb, Croatia"
+    },
+    "harvesting_risk": "Strictly Prohibited - Protected",
+    "nagoya_abs_status": "Strict national poison schedule oversight across EU pharmacopeia registries",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Tropane alkaloids act as competitive non-selective antagonists of muscarinic acetylcholine receptors, blocking parasympathetic nerve impulses. Used in acute medicine to reverse lethal organophosphate pesticide poisoning, treat symptomatic bradycardia, and induce ophthalmic mydriasis."
+  },
+  {
+    "id": "plant_rauvolfia_serpentina",
+    "common_name": "Indian Snakeroot / Sarpagandha",
+    "scientific_name": "Rauvolfia serpentina (L.) Benth. ex Kurz",
+    "family": "Apocynaceae",
+    "traditional_system": "Ayurveda",
+    "traditional_uses": "Recorded in Sushruta Samhita for snakebites, fevers, lunatic hysteria (Unmada), and high blood tension.",
+    "plant_parts_used": [
+      "Root"
+    ],
+    "active_metabolites": [
+      "Reserpine",
+      "Ajmaline",
+      "Serpentine",
+      "Rescinnamine"
+    ],
+    "molecular_targets": [
+      "VMAT-2 (Vesicular monoamine transporter 2)",
+      "Cardiac sodium channels"
+    ],
+    "iucn_status": "Critically Endangered",
+    "native_region": "Indian Subcontinent and Southeast Asia",
+    "gbif_coordinates": {
+      "latitude": 26.2006,
+      "longitude": 92.9376,
+      "locality": "Assam tropical wet evergreen forest, India"
+    },
+    "harvesting_risk": "Strictly Prohibited - Protected",
+    "nagoya_abs_status": "CITES Appendix II listed; wild gathering illegal in India under Wildlife Protection Act Schedule VI",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Irreversibly inhibits VMAT-2, depleting vesicular stores of noradrenaline, dopamine, and serotonin in central and peripheral neurons. Produced the first modern antihypertensive and antipsychotic medication, but causes severe clinical depression and orthostatic collapse."
+  },
+  {
+    "id": "plant_cannabis_sativa",
+    "common_name": "Cannabis / Industrial & Medicinal Hemp",
+    "scientific_name": "Cannabis sativa L.",
+    "family": "Cannabaceae",
+    "traditional_system": "Global Traditional Medicine (Ayurveda as Vijaya, TCM as Dama)",
+    "traditional_uses": "Used in the Atharva Veda as one of five sacred plants for liberating anxiety, soothing intractable pain, easing convulsions, and inducing restful trance.",
+    "plant_parts_used": [
+      "Flowering tops",
+      "Trichomes",
+      "Leaves"
+    ],
+    "active_metabolites": [
+      "Cannabidiol (CBD)",
+      "Delta-9-tetrahydrocannabinol (THC)",
+      "Cannabigerol (CBG)",
+      "beta-Caryophyllene"
+    ],
+    "molecular_targets": [
+      "CB1 receptor",
+      "CB2 receptor",
+      "GPR55",
+      "TRPV1",
+      "5-HT1A"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Central Asia (Himalayan foothills and Altai Mountains)",
+    "gbif_coordinates": {
+      "latitude": 32.219,
+      "longitude": 76.3234,
+      "locality": "Kangra Valley alpine transition, Himachal Pradesh, India"
+    },
+    "harvesting_risk": "Regulated Quota",
+    "nagoya_abs_status": "International Single Convention on Narcotic Drugs & UNODC / State cultivation permits",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Phytocannabinoids modulate the human endocannabinoid system, regulating neurotransmitter release, nociception, and microglial inflammation. Purified CBD is FDA-approved (Epidiolex) for refractory childhood epilepsies (Dravet and Lennox-Gastaut syndromes)."
+  },
+  {
+    "id": "plant_taxus_brevifolia",
+    "common_name": "Pacific Yew",
+    "scientific_name": "Taxus brevifolia Nutt.",
+    "family": "Taxaceae",
+    "traditional_system": "Indigenous Pacific Northwest Medicine (Haida, Coast Salish)",
+    "traditional_uses": "Bark decoctions used by Pacific Coast indigenous tribes for external skin lesions, internal pain, and as a spiritual tonic.",
+    "plant_parts_used": [
+      "Bark",
+      "Needles"
+    ],
+    "active_metabolites": [
+      "Paclitaxel (Taxol)",
+      "10-Deacetylbaccatin III",
+      "Cephalomannine"
+    ],
+    "molecular_targets": [
+      "Beta-tubulin subunit",
+      "Microtubule assembly stabilization"
+    ],
+    "iucn_status": "Near Threatened",
+    "native_region": "Pacific Northwest of North America (USA, Canada)",
+    "gbif_coordinates": {
+      "latitude": 44.2058,
+      "longitude": -122.257,
+      "locality": "H.J. Andrews Experimental Forest, Cascade Range, Oregon, USA"
+    },
+    "harvesting_risk": "Strictly Prohibited - Protected",
+    "nagoya_abs_status": "Protected species on US Federal Lands; industrial extraction transitioned to semi-synthesis from cultivated needles",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": false,
+    "summary": "Paclitaxel binds stoichiometrically to the beta-tubulin subunit, hyper-stabilizing polymeric microtubules and preventing mitotic spindle depolymerization. Induces G2/M cell cycle arrest and apoptosis, revolutionizing treatment protocols for ovarian, metastatic breast, and non-small cell lung carcinomas."
+  },
+  {
+    "id": "plant_harpagophytum_procumbens",
+    "common_name": "Devil's Claw",
+    "scientific_name": "Harpagophytum procumbens (Burch.) DC. ex Meisn.",
+    "family": "Pedaliaceae",
+    "traditional_system": "African Traditional Medicine (San and Khoikhoi)",
+    "traditional_uses": "Employed for centuries by Kalahari desert healers for postpartum relief, severe arthritis, feverish illnesses, and gastrointestinal cramps.",
+    "plant_parts_used": [
+      "Secondary tuberous roots"
+    ],
+    "active_metabolites": [
+      "Harpagoside",
+      "Harpagide",
+      "Procumbide",
+      "Verbascoside"
+    ],
+    "molecular_targets": [
+      "COX-2",
+      "iNOS",
+      "MMP-13 (Matrix Metalloproteinase-13)",
+      "TNF-alpha"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Southern Africa (Namibia, Botswana, South Africa - Kalahari desert)",
+    "gbif_coordinates": {
+      "latitude": -22.5609,
+      "longitude": 17.0658,
+      "locality": "Kalahari savanna fringe, Omaheke Region, Namibia"
+    },
+    "harvesting_risk": "Regulated Quota",
+    "nagoya_abs_status": "Namibian Ministry of Environment and Tourism ABS Devil's Claw Harvesting Policy compliant",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Iridoid glucoside harpagoside inhibits chondrocyte matrix degradation by downregulating aggrecanase and matrix metalloproteinases. High-grade clinical evidence supports its use as an analgesic and anti-inflammatory treatment for chronic low back pain and knee osteoarthritis."
+  },
+  {
+    "id": "plant_catharanthus_roseus",
+    "common_name": "Madagascar Periwinkle",
+    "scientific_name": "Catharanthus roseus (L.) G.Don",
+    "family": "Apocynaceae",
+    "traditional_system": "African Traditional & Ayurvedic Medicine",
+    "traditional_uses": "Used in Madagascar and India as an infusion for diabetes mellitus, hypertension, and local wasp stings.",
+    "plant_parts_used": [
+      "Leaves",
+      "Aerial parts",
+      "Roots"
+    ],
+    "active_metabolites": [
+      "Vinblastine",
+      "Vincristine",
+      "Ajmalicine",
+      "Serpentine"
+    ],
+    "molecular_targets": [
+      "Tubulin heterodimers",
+      "Mitotic spindle microtubule dynamics"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Madagascar endemic (now naturalized pantropically)",
+    "gbif_coordinates": {
+      "latitude": -23.3516,
+      "longitude": 43.6667,
+      "locality": "Atsimo-Andrefana dry deciduous scrubland, Madagascar"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "Madagascar National ABS Strategy & Action Plan aligned benefit-sharing model",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Bisindole alkaloids vinblastine and vincristine bind to tubulin monomers at the Vinca domain, preventing microtubule assembly and halting metaphase mitosis. Critical chemotherapeutic agents that elevated childhood acute lymphoblastic leukemia survival from under 10% to over 90%."
+  },
+  {
+    "id": "plant_uncaria_tomentosa",
+    "common_name": "Cat's Claw / Uña de Gato",
+    "scientific_name": "Uncaria tomentosa (Willd. ex Schult.) DC.",
+    "family": "Rubiaceae",
+    "traditional_system": "Amazonian Indigenous Medicine (Asháninka)",
+    "traditional_uses": "Pivotal panacea among Asháninka healers of the Peruvian Amazon for deep bone pain, gastric ulcers, cancer treatment, and spiritual cleansing.",
+    "plant_parts_used": [
+      "Inner bark",
+      "Root"
+    ],
+    "active_metabolites": [
+      "Isopteropodine",
+      "Mitraphylline",
+      "Pteropodine",
+      "Rhynchophylline"
+    ],
+    "molecular_targets": [
+      "NF-kB",
+      "TNF-alpha",
+      "DNA repair enzymes (PARP-1)"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Amazon Rainforest (Peru, Brazil, Colombia, Ecuador)",
+    "gbif_coordinates": {
+      "latitude": -11.1783,
+      "longitude": -74.6297,
+      "locality": "Satipo Province, Selva Central, Junin, Peru"
+    },
+    "harvesting_risk": "Regulated Quota",
+    "nagoya_abs_status": "Peruvian SERFOR Forest and Wildlife National Service Sustainable Harvest Authorization",
+    "evidence_grade": "Grade B",
+    "who_monograph_available": true,
+    "summary": "Pentacyclic oxindole alkaloids stimulate lymphocyte proliferation and stimulate leukocyte phagocytic index while downregulating systemic NF-kB transcription. Shown in clinical trials to alleviate joint stiffness in rheumatoid arthritis and enhance leukocyte recovery during adjuvant chemotherapy."
+  },
+  {
+    "id": "plant_andrographis_paniculata",
+    "common_name": "King of Bitters / Kalmegh",
+    "scientific_name": "Andrographis paniculata (Burm.f.) Nees",
+    "family": "Acanthaceae",
+    "traditional_system": "Ayurveda & Traditional Chinese Medicine (Chuanxinlian)",
+    "traditional_uses": "Celebrated across India and China as an intensely bitter febrifuge for epidemics, acute tonsillitis, hepatitis, and dysentery.",
+    "plant_parts_used": [
+      "Aerial parts",
+      "Leaves"
+    ],
+    "active_metabolites": [
+      "Andrographolide",
+      "Neoandrographolide",
+      "14-Deoxyandrographolide"
+    ],
+    "molecular_targets": [
+      "NF-kB p50 subunit (cysteine 62 alkylation)",
+      "NLRP3 inflammasome",
+      "JAK/STAT signaling"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "South Asia (India, Sri Lanka)",
+    "gbif_coordinates": {
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "locality": "Coromandel coastal forest belt, Tamil Nadu, India"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "India National Biodiversity Authority (NBA) Compliant Cultivation Agreement",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Diterpenoid lactone andrographolide covalently binds cysteine 62 of the NF-kB p50 subunit to shut down pro-inflammatory gene transcription. Endorsed in systematic reviews and clinical trials for drastically shortening the duration and severity of upper respiratory viral tract infections."
+  },
+  {
+    "id": "plant_colchicum_autumnale",
+    "common_name": "Autumn Crocus / Meadow Saffron",
+    "scientific_name": "Colchicum autumnale L.",
+    "family": "Colchicaceae",
+    "traditional_system": "Ancient Greek & Dioscoridean Medicine (Hermodactyl)",
+    "traditional_uses": "Described by Alexander of Tralles in the 6th century as Hermodactyl for agonizing podagra (acute gout attacks).",
+    "plant_parts_used": [
+      "Seeds",
+      "Corms"
+    ],
+    "active_metabolites": [
+      "Colchicine",
+      "Colchicoside",
+      "Demecolcine"
+    ],
+    "molecular_targets": [
+      "Tubulin heterodimers",
+      "NLRP3 inflammasome",
+      "Neutrophil chemotaxis"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Central and Southern Europe",
+    "gbif_coordinates": {
+      "latitude": 46.2044,
+      "longitude": 6.1432,
+      "locality": "Jura alpine pasture meadows, Vaud/Geneva boundary, Switzerland"
+    },
+    "harvesting_risk": "Strictly Prohibited - Protected",
+    "nagoya_abs_status": "European pharmacopeia restricted toxic alkaloid plant protocol",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Tropolone alkaloid colchicine binds to unpolymerized tubulin, inhibiting microtubule formation and blocking leukocyte extravasation. Clinically irreplaceable for terminating acute gout flares and preventing pericarditis, yet possesses a dangerous low therapeutic ratio."
+  },
+  {
+    "id": "plant_rosmarinus_officinalis",
+    "common_name": "Rosemary",
+    "scientific_name": "Salvia rosmarinus Spenn. (syn. Rosmarinus officinalis L.)",
+    "family": "Lamiaceae",
+    "traditional_system": "Mediterranean Herbalism & Greco-Roman Medicine",
+    "traditional_uses": "Worn by Greek scholars as garlands to reinforce memory; utilized for dyspepsia, rheumatic joints, and circulatory stimulation.",
+    "plant_parts_used": [
+      "Leaves",
+      "Flowering stems"
+    ],
+    "active_metabolites": [
+      "Rosmarinic acid",
+      "Carnosic acid",
+      "Carnosol",
+      "Ursolic acid",
+      "1,8-Cineole"
+    ],
+    "molecular_targets": [
+      "Acetylcholinesterase (AChE)",
+      "Nrf2-ARE antioxidant pathway",
+      "COX-2"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Mediterranean Basin",
+    "gbif_coordinates": {
+      "latitude": 43.7102,
+      "longitude": 7.262,
+      "locality": "Maritime limestone garrigue, Alpes-Maritimes, France"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "EU Regulation 511/2014 & French ABS Declaration Compliant",
+    "evidence_grade": "Grade B",
+    "who_monograph_available": true,
+    "summary": "Carnosic acid and rosmarinic acid cross the blood-brain barrier to activate the protective Keap1-Nrf2 antioxidant defense system. Demonstrates notable anti-acetylcholinesterase inhibition that objectively enhances cognitive recall and working memory in human volunteer cohorts."
+  },
+  {
+    "id": "plant_thymus_vulgaris",
+    "common_name": "Thyme",
+    "scientific_name": "Thymus vulgaris L.",
+    "family": "Lamiaceae",
+    "traditional_system": "European Herbalism & Egyptian Embalming",
+    "traditional_uses": "Used by Sumerians and ancient Egyptians as a potent antiseptic, and by Dioscorides as an expectorant for congested lungs and whooping cough.",
+    "plant_parts_used": [
+      "Leaves",
+      "Flowering aerial parts"
+    ],
+    "active_metabolites": [
+      "Thymol",
+      "Carvacrol",
+      "p-Cymene",
+      "Luteolin"
+    ],
+    "molecular_targets": [
+      "Bacterial cell membrane ergosterol/lipids",
+      "TRPA1 / TRPV1 ion channels",
+      "Mucociliary escalator"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Southern Europe and Western Mediterranean",
+    "gbif_coordinates": {
+      "latitude": 41.3879,
+      "longitude": 2.1699,
+      "locality": "Catalonia scrubland hills, Spain"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "Spanish Royal Decree 124/2017 ABS compliant wild-crafting",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Phenolic monoterpenes thymol and carvacrol disrupt microbial cell membrane permeability, triggering cell lysis across antibiotic-resistant strains. Serves as an EMA-approved antispasmodic and secretomotor expectorant for productive bronchial coughs."
+  },
+  {
+    "id": "plant_echinacea_purpurea",
+    "common_name": "Purple Coneflower",
+    "scientific_name": "Echinacea purpurea (L.) Moench",
+    "family": "Asteraceae",
+    "traditional_system": "Indigenous North American Medicine (Lakota, Omaha, Kiowa)",
+    "traditional_uses": "Sacred remedy of Great Plains tribes for snakebites, toothaches, septic septicemia, rabies, and burning throat infections.",
+    "plant_parts_used": [
+      "Roots",
+      "Aerial parts",
+      "Flowering heads"
+    ],
+    "active_metabolites": [
+      "Echinacoside",
+      "Cichoric acid",
+      "Isobutylamides (Alkamides)",
+      "Polysaccharide Arabinogalactans"
+    ],
+    "molecular_targets": [
+      "Cannabinoid CB2 receptor",
+      "TNF-alpha expression",
+      "Phagocytic macrophage activation"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Eastern and Central North America (USA, Canada)",
+    "gbif_coordinates": {
+      "latitude": 38.627,
+      "longitude": -90.1994,
+      "locality": "Tallgrass Prairie reserve, Missouri, USA"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "Cultivated source material; non-timber forest product certification in North America",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Alkamides structurally mimic endogenous cannabinoids to bind peripheral CB2 receptors and stimulate macrophage phagocytosis. Cochrane meta-analyses indicate moderate reductions in the duration and relative risk of recurring common cold episodes."
+  },
+  {
+    "id": "plant_ocimum_tenuiflorum",
+    "common_name": "Holy Basil / Tulsi",
+    "scientific_name": "Ocimum tenuiflorum L. (syn. Ocimum sanctum L.)",
+    "family": "Lamiaceae",
+    "traditional_system": "Ayurveda",
+    "traditional_uses": "Venerated as 'The Incomparable One' and an 'Elixir of Life' for purifying respiratory passages, reducing fevers, relieving stress, and balancing bodily doshas.",
+    "plant_parts_used": [
+      "Leaves",
+      "Aerial parts"
+    ],
+    "active_metabolites": [
+      "Eugenol",
+      "Ursolic acid",
+      "Rosmarinic acid",
+      "Apigenin",
+      "Caryophyllene"
+    ],
+    "molecular_targets": [
+      "COX-2",
+      "Corticosterone levels",
+      "Superoxide dismutase",
+      "Catalase"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Indian Subcontinent and Indochina",
+    "gbif_coordinates": {
+      "latitude": 27.5706,
+      "longitude": 80.0982,
+      "locality": "Gangetic alluvial plain, Uttar Pradesh, India"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "National Biodiversity Authority of India standard domestic access framework",
+    "evidence_grade": "Grade B",
+    "who_monograph_available": true,
+    "summary": "Triterpenes and phenolic volatiles synergistically lower corticosterone release and prevent metabolic stress-induced mitochondrial damage. Clinical human studies confirm significant improvements in generalized anxiety disorder scores and systemic antioxidant defense."
+  },
+  {
+    "id": "plant_coptis_chinensis",
+    "common_name": "Chinese Goldthread / Huanglian",
+    "scientific_name": "Coptis chinensis Franch.",
+    "family": "Ranunculaceae",
+    "traditional_system": "Traditional Chinese Medicine",
+    "traditional_uses": "Primary bitter and cold herb in Shennong Bencao Jing for draining fire, clearing toxic heat, terminating dysentery, and drying dampness.",
+    "plant_parts_used": [
+      "Rhizome"
+    ],
+    "active_metabolites": [
+      "Berberine",
+      "Coptisine",
+      "Palmatine",
+      "Jatrorrhizine"
+    ],
+    "molecular_targets": [
+      "AMPK",
+      "PCSK9",
+      "CYP3A4",
+      "Bacterial FtsZ protein"
+    ],
+    "iucn_status": "Endangered",
+    "native_region": "South-Central and Southwestern China",
+    "gbif_coordinates": {
+      "latitude": 30.0489,
+      "longitude": 108.4125,
+      "locality": "Shizhu Tujia Autonomous County, Chongqing, China"
+    },
+    "harvesting_risk": "Regulated Quota",
+    "nagoya_abs_status": "China National Traditional Chinese Medicine Geopositioned ABS Heritage Registry",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Isoquinoline alkaloid berberine activates AMPK to reverse insulin resistance and downregulates hepatic PCSK9 transcription to lower LDL-cholesterol. Potently inhibits enteric pathogens and CYP3A4, causing profound pharmacokinetic interactions with immunosuppressant drugs."
+  },
+  {
+    "id": "plant_prunus_africana",
+    "common_name": "African Cherry / Red Stinkwood",
+    "scientific_name": "Prunus africana (Hook.f.) Kalkman",
+    "family": "Rosaceae",
+    "traditional_system": "African Traditional Medicine",
+    "traditional_uses": "Bark chewed or decocted by traditional healers across the Afromontane highlands for urinary difficulties, prostate pain, and fevers.",
+    "plant_parts_used": [
+      "Bark"
+    ],
+    "active_metabolites": [
+      "beta-Sitosterol",
+      "Docosanol",
+      "Ursolic acid",
+      "Friedelin"
+    ],
+    "molecular_targets": [
+      "5-alpha-reductase",
+      "Aromatase",
+      "Fibroblast growth factor (bFGF)",
+      "EGF receptors"
+    ],
+    "iucn_status": "Vulnerable",
+    "native_region": "Montane forests of Sub-Saharan Africa and Madagascar",
+    "gbif_coordinates": {
+      "latitude": 4.2167,
+      "longitude": 9.2,
+      "locality": "Mount Cameroon montane forest, Southwest Region, Cameroon"
+    },
+    "harvesting_risk": "Regulated Quota",
+    "nagoya_abs_status": "CITES Appendix II listed; strictly regulated quota under Cameroon MINFOF ABS tracking",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Phytosterols and pentacyclic triterpenes inhibit prostatic stromal hyperplasia by suppressing basic fibroblast growth factor (bFGF) and 5-alpha-reductase. Clinical systematic reviews demonstrate significant improvements in urinary flow rates and nocturnal frequency in benign prostatic hyperplasia (BPH)."
+  },
+  {
+    "id": "plant_valeriana_officinalis",
+    "common_name": "Valerian",
+    "scientific_name": "Valeriana officinalis L.",
+    "family": "Caprifoliaceae",
+    "traditional_system": "European & Greco-Roman Medicine",
+    "traditional_uses": "Prescribed by Galen and Dioscorides as 'Phu' for persistent insomnia, nervous agitation, trembling, and heart palpitations.",
+    "plant_parts_used": [
+      "Roots",
+      "Rhizome"
+    ],
+    "active_metabolites": [
+      "Valerenic acid",
+      "Acetidinylvalerenate",
+      "Valepotriates (Valtrate)",
+      "Hesperidin"
+    ],
+    "molecular_targets": [
+      "GABAA beta-3 subunit",
+      "Serotonin 5-HT5a receptor",
+      "Adenosine A1 receptor"
+    ],
+    "iucn_status": "Least Concern",
+    "native_region": "Europe and Western Asia",
+    "gbif_coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "locality": "Wiltshire downland meadows, United Kingdom"
+    },
+    "harvesting_risk": "Sustainable Wild Harvest",
+    "nagoya_abs_status": "EU / UK Nagoya Compliance Certificate of Commercial Cultivation",
+    "evidence_grade": "Grade A",
+    "who_monograph_available": true,
+    "summary": "Sesquiterpene valerenic acid serves as an allosteric modulator of GABAA receptors containing beta-3 subunits, stimulating inhibitory neurotransmission without causing motor ataxia. Widely utilized in clinical trials as a non-addictive herbal hypnotic to shorten sleep latency."
+  }
+]
