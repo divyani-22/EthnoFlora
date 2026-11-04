@@ -1,0 +1,1834 @@
+{
+  "quizzes": [
+    {
+      "id": "carbon-footprint",
+      "title": "Carbon Footprint & Sustainable Living",
+      "description": "Understand emissions calculations, life-cycle impact, and daily conservation actions.",
+      "author": "EcoSprint Climate Academy",
+      "category": "Sustainability",
+      "questionCount": 10,
+      "timeLimit": 900,
+      "points": 100,
+      "rating": 4.8,
+      "imageUrl": "assets/images/quiz/carbon_footprint.png",
+      "videoUrl": "",
+      "questions": [
+        {
+          "id": "cf_1",
+          "question": "What does an individual's carbon footprint fundamentally measure?",
+          "answers": [
+            {
+              "id": "cf_1_a",
+              "text": "The physical area of land occupied by their housing",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_1_b",
+              "text": "Total greenhouse gas emissions generated directly and indirectly by their activities",
+              "isCorrect": true
+            },
+            {
+              "id": "cf_1_c",
+              "text": "The weight of non-recyclable solid waste they dispose annually",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_1_d",
+              "text": "The volume of clean water consumed for domestic purposes",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cf_1_b",
+          "explanation": "A carbon footprint quantifies all greenhouse gas emissions (in CO2 equivalents) from transportation, energy use, diet, and consumption.",
+          "points": 10
+        },
+        {
+          "id": "cf_2",
+          "question": "Which personal travel mode generates the highest CO2 equivalent emissions per passenger-kilometer?",
+          "answers": [
+            {
+              "id": "cf_2_a",
+              "text": "Electric urban metro rail",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_2_b",
+              "text": "Short-haul domestic commercial flights",
+              "isCorrect": true
+            },
+            {
+              "id": "cf_2_c",
+              "text": "Fully occupied interstate hybrid buses",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_2_d",
+              "text": "Two-wheeler commuter electric scooters",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cf_2_b",
+          "explanation": "Short-haul flights carry disproportionate takeoff emissions and high radiative forcing at high altitudes per passenger.",
+          "points": 10
+        },
+        {
+          "id": "cf_3",
+          "question": "Why does a plant-forward diet significantly lower a person's dietary emissions?",
+          "answers": [
+            {
+              "id": "cf_3_a",
+              "text": "Plants absorb more carbon during cooking than meats",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_3_b",
+              "text": "Bypassing livestock avoids ruminant enteric fermentation and trophic energy losses",
+              "isCorrect": true
+            },
+            {
+              "id": "cf_3_c",
+              "text": "Vegetables require zero water or land to cultivate",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_3_d",
+              "text": "Plant foods are always packaged in fully biodegradable containers",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cf_3_b",
+          "explanation": "Ruminants emit potent methane via enteric fermentation, and converting plant crops to animal protein incurs an 80-90% trophic energy loss.",
+          "points": 10
+        },
+        {
+          "id": "cf_4",
+          "question": "What is 'phantom load' or vampire power in residential electricity consumption?",
+          "answers": [
+            {
+              "id": "cf_4_a",
+              "text": "Electricity stolen through unauthorized overhead wire hooks",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_4_b",
+              "text": "Power drawn by electronic devices while plugged in on standby mode",
+              "isCorrect": true
+            },
+            {
+              "id": "cf_4_c",
+              "text": "Power losses occurring along long-distance high-voltage transmission lines",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_4_d",
+              "text": "Sudden voltage surges caused by atmospheric lightning strikes",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cf_4_b",
+          "explanation": "Appliances with clocks, sensors, and remote sensors consume 5-10% of household electricity even when seemingly turned off.",
+          "points": 10
+        },
+        {
+          "id": "cf_5",
+          "question": "What is the certified purpose of a voluntary carbon offset credit?",
+          "answers": [
+            {
+              "id": "cf_5_a",
+              "text": "Granting legal permission to burn unlimited fossil fuels anywhere",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_5_b",
+              "text": "Compensating for emissions by funding verified external reductions of equivalent greenhouse gases",
+              "isCorrect": true
+            },
+            {
+              "id": "cf_5_c",
+              "text": "A municipal tax paid for collecting household plastic trash",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_5_d",
+              "text": "Subsidizing fossil fuel extraction during economic downturns",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cf_5_b",
+          "explanation": "One carbon credit represents one metric tonne of CO2 reduced, avoided, or sequestered through certified projects.",
+          "points": 10
+        },
+        {
+          "id": "cf_6",
+          "question": "Which household action typically delivers the largest direct energy saving in warm climates?",
+          "answers": [
+            {
+              "id": "cf_6_a",
+              "text": "Setting air conditioning thermostats to 24°C-26°C instead of 18°C",
+              "isCorrect": true
+            },
+            {
+              "id": "cf_6_b",
+              "text": "Switching from plastic toothbrushes to bamboo toothbrushes",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_6_c",
+              "text": "Rinsing plates with cold water instead of warm water",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_6_d",
+              "text": "Using dark curtains inside unventilated rooms",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cf_6_a",
+          "explanation": "Every degree increase in AC thermostat setting can reduce cooling compressor energy consumption by roughly 6%.",
+          "points": 10
+        },
+        {
+          "id": "cf_7",
+          "question": "What does the concept of 'Embodied Carbon' in consumer electronics refer to?",
+          "answers": [
+            {
+              "id": "cf_7_a",
+              "text": "The carbon gas physically trapped inside lithium battery casings",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_7_b",
+              "text": "Total emissions generated during raw material extraction, component manufacturing, and shipping",
+              "isCorrect": true
+            },
+            {
+              "id": "cf_7_c",
+              "text": "The soot deposited on computer screens from indoor air pollution",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_7_d",
+              "text": "The carbon emissions caused exclusively by user internet browsing",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cf_7_b",
+          "explanation": "Over 75% of a smartphone or laptop's lifetime carbon emissions occur during manufacturing and silicon fabrication before first power-on.",
+          "points": 10
+        },
+        {
+          "id": "cf_8",
+          "question": "What is the environmental advantage of using circular campus marketplaces like BioRepository?",
+          "answers": [
+            {
+              "id": "cf_8_a",
+              "text": "It eliminates the need for campus libraries altogether",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_8_b",
+              "text": "Extending product lifecycles avoids new manufacturing demand and diverts usable items from incinerators",
+              "isCorrect": true
+            },
+            {
+              "id": "cf_8_c",
+              "text": "It guarantees student grades will automatically increase",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_8_d",
+              "text": "It eliminates the need for campus electricity",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cf_8_b",
+          "explanation": "Reusing textbooks, calculators, and furniture prevents the raw material extraction and production emissions required for new items.",
+          "points": 10
+        },
+        {
+          "id": "cf_9",
+          "question": "Which consumer lifestyle choice best exemplifies 'Scope 3' indirect personal emissions?",
+          "answers": [
+            {
+              "id": "cf_9_a",
+              "text": "Burning kerosene in a home lantern",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_9_b",
+              "text": "Gasoline combusted directly in your own motorcycle engine",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_9_c",
+              "text": "Supply-chain emissions embedded in fast fashion garments purchased online",
+              "isCorrect": true
+            },
+            {
+              "id": "cf_9_d",
+              "text": "Direct emissions from a domestic LPG cooking cylinder",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cf_9_c",
+          "explanation": "Scope 3 covers indirect upstream and downstream supply-chain emissions embedded in purchased products and services.",
+          "points": 10
+        },
+        {
+          "id": "cf_10",
+          "question": "What is 'Greenwashing' in environmental marketing?",
+          "answers": [
+            {
+              "id": "cf_10_a",
+              "text": "Washing reusable containers with organic biodegradable dish soaps",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_10_b",
+              "text": "Misleading consumers regarding the environmental practices or benefits of a product or company",
+              "isCorrect": true
+            },
+            {
+              "id": "cf_10_c",
+              "text": "A specialized technique for removing industrial algae from cooling towers",
+              "isCorrect": false
+            },
+            {
+              "id": "cf_10_d",
+              "text": "The natural purification of air by coastal mangrove forests",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cf_10_b",
+          "explanation": "Greenwashing involves superficial or exaggerated sustainability claims designed to appear eco-friendly without genuine decarbonization.",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "climate-causes",
+      "title": "Climate Change Causes & Human Impact",
+      "description": "Examine the anthropogenic drivers of atmospheric warming, fossil fuels, and ecosystem disruption.",
+      "author": "EcoSprint Climate Academy",
+      "category": "Atmospheric Science",
+      "questionCount": 10,
+      "timeLimit": 900,
+      "points": 100,
+      "rating": 4.9,
+      "imageUrl": "assets/images/quiz/causes.png",
+      "videoUrl": "",
+      "questions": [
+        {
+          "id": "cc_1",
+          "question": "Which human activity accounts for the largest proportion of global greenhouse gas emissions?",
+          "answers": [
+            {
+              "id": "cc_1_a",
+              "text": "Commercial aviation and marine shipping",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_1_b",
+              "text": "Fossil fuel combustion for electricity, heat, and industrial energy",
+              "isCorrect": true
+            },
+            {
+              "id": "cc_1_c",
+              "text": "Domestic residential garbage disposal",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_1_d",
+              "text": "Volcanic monitoring and geothermal research",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cc_1_b",
+          "explanation": "Energy and heat production from burning coal, oil, and gas represents over 70% of global greenhouse emissions.",
+          "points": 10
+        },
+        {
+          "id": "cc_2",
+          "question": "How does rising atmospheric carbon dioxide cause ocean acidification?",
+          "answers": [
+            {
+              "id": "cc_2_a",
+              "text": "CO2 directly boils sea surface water molecules",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_2_b",
+              "text": "Seawater dissolves CO2 to form carbonic acid, lowering ocean pH and consuming carbonate ions",
+              "isCorrect": true
+            },
+            {
+              "id": "cc_2_c",
+              "text": "CO2 reacts with marine salt to produce chlorine gas",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_2_d",
+              "text": "CO2 prevents sunlight from reaching deep sea coral beds",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cc_2_b",
+          "explanation": "The ocean absorbs about 25% of human-emitted CO2, creating carbonic acid that impairs shell and coral reef calcification.",
+          "points": 10
+        },
+        {
+          "id": "cc_3",
+          "question": "Why is methane (CH4) considered such a critical near-term target for climate mitigation?",
+          "answers": [
+            {
+              "id": "cc_3_a",
+              "text": "It lasts in the atmosphere for over 10,000 years",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_3_b",
+              "text": "Its Global Warming Potential over 20 years is roughly 80 times greater than CO2",
+              "isCorrect": true
+            },
+            {
+              "id": "cc_3_c",
+              "text": "Methane is the only greenhouse gas that blocks ultraviolet light",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_3_d",
+              "text": "Methane cools the polar vortex while heating the equator",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cc_3_b",
+          "explanation": "Although methane breaks down within 12 years, its intense heat-trapping capacity makes curbing it the fastest way to slow warming.",
+          "points": 10
+        },
+        {
+          "id": "cc_4",
+          "question": "What is the primary driver of tropical deforestation in regions like the Amazon and Southeast Asia?",
+          "answers": [
+            {
+              "id": "cc_4_a",
+              "text": "Expansion of commercial cattle ranching, soy farming, and palm oil plantations",
+              "isCorrect": true
+            },
+            {
+              "id": "cc_4_b",
+              "text": "Natural insect infestations and wildlife foraging",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_4_c",
+              "text": "Building universities and ecological research observatories",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_4_d",
+              "text": "Harvesting wild berries for pharmaceuticals",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cc_4_a",
+          "explanation": "Large-scale commercial agriculture and cattle pasture clearing drive over 80% of tropical forest loss globally.",
+          "points": 10
+        },
+        {
+          "id": "cc_5",
+          "question": "How does black carbon (soot) accelerate glacial melting in the Himalayas?",
+          "answers": [
+            {
+              "id": "cc_5_a",
+              "text": "It chemically neutralizes frozen water molecules",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_5_b",
+              "text": "It darkens white snow surfaces, dramatically reducing albedo and absorbing solar heat",
+              "isCorrect": true
+            },
+            {
+              "id": "cc_5_c",
+              "text": "It triggers underground tectonic earthquakes",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_5_d",
+              "text": "It prevents high altitude clouds from precipitating",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cc_5_b",
+          "explanation": "Airborne soot from biomass and diesel settling on glaciers darkens the surface, turning reflective snow into heat absorbers.",
+          "points": 10
+        },
+        {
+          "id": "cc_6",
+          "question": "What is the primary industrial source of nitrous oxide (N2O) emissions?",
+          "answers": [
+            {
+              "id": "cc_6_a",
+              "text": "Excess synthetic nitrogen fertilizer application in agricultural soils",
+              "isCorrect": true
+            },
+            {
+              "id": "cc_6_b",
+              "text": "Nuclear power station water cooling towers",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_6_c",
+              "text": "Offshore wind turbine lubrication systems",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_6_d",
+              "text": "Recycled glass remelting kilns",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cc_6_a",
+          "explanation": "Synthetic nitrogen fertilizers and manure application stimulate soil microbes to emit N2O, a gas nearly 300x more potent than CO2.",
+          "points": 10
+        },
+        {
+          "id": "cc_7",
+          "question": "What constitutes the 'Urban Heat Island' effect in rapidly expanding metropolitan cities?",
+          "answers": [
+            {
+              "id": "cc_7_a",
+              "text": "Islands in tropical seas having higher humidity than mainland areas",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_7_b",
+              "text": "Urban areas experiencing higher temperatures than surrounding rural areas due to concrete, asphalt, and waste heat",
+              "isCorrect": true
+            },
+            {
+              "id": "cc_7_c",
+              "text": "Underground magma chambers shifting beneath city subway systems",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_7_d",
+              "text": "Cities generating artificial tropical storms through street lighting",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cc_7_b",
+          "explanation": "Dark pavement and buildings store daytime solar heat, while air conditioning and vehicle exhaust add anthropogenic heat.",
+          "points": 10
+        },
+        {
+          "id": "cc_8",
+          "question": "Which sector generates significant fugitive greenhouse emissions during extraction and transport?",
+          "answers": [
+            {
+              "id": "cc_8_a",
+              "text": "Natural gas pipelines and petroleum drilling through venting and leaks",
+              "isCorrect": true
+            },
+            {
+              "id": "cc_8_b",
+              "text": "Hydroelectric river reservoir gravity turbines",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_8_c",
+              "text": "Rooftop solar photovoltaic silicon panel arrays",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_8_d",
+              "text": "Organic community vegetable gardening",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cc_8_a",
+          "explanation": "Methane escapes continuously from faulty valves, loose pipeline flanges, and venting wells during fossil gas extraction.",
+          "points": 10
+        },
+        {
+          "id": "cc_9",
+          "question": "What is the primary environmental impact of peatland drainage and burning in Southeast Asia?",
+          "answers": [
+            {
+              "id": "cc_9_a",
+              "text": "Release of vast underground prehistoric carbon reserves into the atmosphere as dense smog",
+              "isCorrect": true
+            },
+            {
+              "id": "cc_9_b",
+              "text": "Sudden cooling of regional ocean water temperatures",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_9_c",
+              "text": "Formation of new freshwater coral reefs",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_9_d",
+              "text": "Permanent disappearance of winter seasons in the northern hemisphere",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cc_9_a",
+          "explanation": "Peatlands hold more carbon than all the world's forests combined; drying and burning them triggers catastrophic emissions.",
+          "points": 10
+        },
+        {
+          "id": "cc_10",
+          "question": "What feedback loop makes thawing Arctic permafrost dangerous for global warming?",
+          "answers": [
+            {
+              "id": "cc_10_a",
+              "text": "Thawing soil releases trapped ancient organic matter as methane and CO2, driving further warming",
+              "isCorrect": true
+            },
+            {
+              "id": "cc_10_b",
+              "text": "Thawing permafrost causes immediate expansion of polar ice caps",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_10_c",
+              "text": "It turns the Arctic Ocean into a giant freshwater lake",
+              "isCorrect": false
+            },
+            {
+              "id": "cc_10_d",
+              "text": "It eliminates solar radiation across northern Europe",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cc_10_a",
+          "explanation": "Permafrost holds an estimated 1,500 billion tons of carbon—double what is currently in the atmosphere—which microbes decompose as it thaws.",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "climate-fundamentals",
+      "title": "Climate Fundamentals & Atmospheric Science",
+      "description": "Master the physical science of radiative balance, greenhouse physics, and planetary climate systems.",
+      "author": "EcoSprint Climate Academy",
+      "category": "Climate Science",
+      "questionCount": 10,
+      "timeLimit": 900,
+      "points": 100,
+      "rating": 4.9,
+      "imageUrl": "assets/images/quiz/climate_fundamentals.png",
+      "videoUrl": "",
+      "questions": [
+        {
+          "id": "cfu_1",
+          "question": "What is the natural greenhouse effect and why is it essential for Earth's biosphere?",
+          "answers": [
+            {
+              "id": "cfu_1_a",
+              "text": "A man-made industrial heating system designed for agricultural greenhouses",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_1_b",
+              "text": "Atmospheric gases absorbing terrestrial infrared radiation, maintaining Earth's average temperature at ~15°C instead of -18°C",
+              "isCorrect": true
+            },
+            {
+              "id": "cfu_1_c",
+              "text": "Solar ultraviolet rays directly bouncing between mountain peaks",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_1_d",
+              "text": "Heat generated exclusively by tectonic geothermal friction inside Earth's mantle",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cfu_1_b",
+          "explanation": "Without naturally occurring greenhouse gases (H2O, CO2), Earth would be a frozen, uninhabitable ice ball.",
+          "points": 10
+        },
+        {
+          "id": "cfu_2",
+          "question": "Which atmospheric gas is the most abundant natural contributor to Earth's natural greenhouse effect?",
+          "answers": [
+            {
+              "id": "cfu_2_a",
+              "text": "Carbon Dioxide (CO2)",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_2_b",
+              "text": "Water Vapor (H2O)",
+              "isCorrect": true
+            },
+            {
+              "id": "cfu_2_c",
+              "text": "Nitrogen Gas (N2)",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_2_d",
+              "text": "Argon (Ar)",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cfu_2_b",
+          "explanation": "Water vapor provides 60% of natural greenhouse warmth, acting as a rapid amplifier (feedback) to human-caused CO2 warming.",
+          "points": 10
+        },
+        {
+          "id": "cfu_3",
+          "question": "What does planetary 'Albedo' measure in Earth's energy budget?",
+          "answers": [
+            {
+              "id": "cfu_3_a",
+              "text": "The fraction of incoming solar radiation reflected back into space by a surface",
+              "isCorrect": true
+            },
+            {
+              "id": "cfu_3_b",
+              "text": "The total depth of Earth's atmosphere measured in kilometers",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_3_c",
+              "text": "The concentration of dissolved oxygen in tropical seawater",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_3_d",
+              "text": "The rate at which ocean currents transfer thermal energy across latitudes",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cfu_3_a",
+          "explanation": "Fresh snow has high albedo (~0.8-0.9, reflects 90% of sunlight), whereas open dark ocean water has low albedo (~0.06, absorbs 94%).",
+          "points": 10
+        },
+        {
+          "id": "cfu_4",
+          "question": "In which atmospheric layer does virtually all weather and climate dynamics occur?",
+          "answers": [
+            {
+              "id": "cfu_4_a",
+              "text": "Stratosphere",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_4_b",
+              "text": "Troposphere",
+              "isCorrect": true
+            },
+            {
+              "id": "cfu_4_c",
+              "text": "Mesosphere",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_4_d",
+              "text": "Thermosphere",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cfu_4_b",
+          "explanation": "The troposphere contains 75% of atmospheric mass and 99% of water vapor, extending 8-15 km above sea level.",
+          "points": 10
+        },
+        {
+          "id": "cfu_5",
+          "question": "What is the difference between 'Weather' and 'Climate'?",
+          "answers": [
+            {
+              "id": "cfu_5_a",
+              "text": "Weather describes atmospheric conditions over short timescales (hours/days); climate is statistical averages over 30+ years",
+              "isCorrect": true
+            },
+            {
+              "id": "cfu_5_b",
+              "text": "Weather only refers to rainfall; climate refers exclusively to temperature",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_5_c",
+              "text": "Weather happens at sea; climate happens on land",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_5_d",
+              "text": "Climate changes daily; weather changes over centuries",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cfu_5_a",
+          "explanation": "'Climate is what you expect, weather is what you get' — WMO defines climate normals across 30-year statistical periods.",
+          "points": 10
+        },
+        {
+          "id": "cfu_6",
+          "question": "What percentage of excess heat trapped by greenhouse gases has been absorbed by the oceans?",
+          "answers": [
+            {
+              "id": "cfu_6_a",
+              "text": "Approximately 10%",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_6_b",
+              "text": "Approximately 30%",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_6_c",
+              "text": "Over 90%",
+              "isCorrect": true
+            },
+            {
+              "id": "cfu_6_d",
+              "text": "Less than 5%",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cfu_6_c",
+          "explanation": "Earth's oceans possess huge heat capacity, absorbing over 90% of anthropogenic heat energy since 1970.",
+          "points": 10
+        },
+        {
+          "id": "cfu_7",
+          "question": "What is the famous 'Keeling Curve' tracking at the Mauna Loa Observatory?",
+          "answers": [
+            {
+              "id": "cfu_7_a",
+              "text": "Average global sea level elevation",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_7_b",
+              "text": "Continuous atmospheric carbon dioxide concentration in parts per million (ppm)",
+              "isCorrect": true
+            },
+            {
+              "id": "cfu_7_c",
+              "text": "Total solar irradiance variations over 11-year solar cycles",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_7_d",
+              "text": "Annual mass loss of Antarctic ice shelves",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cfu_7_b",
+          "explanation": "Started by Charles David Keeling in 1958, it proved CO2 was climbing steadily from ~315 ppm to over 425 ppm today.",
+          "points": 10
+        },
+        {
+          "id": "cfu_8",
+          "question": "What is a 'Tipping Point' in planetary climate science?",
+          "answers": [
+            {
+              "id": "cfu_8_a",
+              "text": "The exact date when global oil production peaks",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_8_b",
+              "text": "A critical threshold where a small change triggers large, irreversible, and self-sustaining shifts in a climate system",
+              "isCorrect": true
+            },
+            {
+              "id": "cfu_8_c",
+              "text": "The moment a wind turbine reaches maximum rotational velocity",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_8_d",
+              "text": "The highest temperature recorded on a single day in a summer",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cfu_8_b",
+          "explanation": "Examples of tipping points include West Antarctic ice collapse, Amazon dieback, and Atlantic Meridional Overturning Circulation shutdown.",
+          "points": 10
+        },
+        {
+          "id": "cfu_9",
+          "question": "How does thermal expansion contribute to global sea level rise?",
+          "answers": [
+            {
+              "id": "cfu_9_a",
+              "text": "Water naturally expands in volume as its temperature increases",
+              "isCorrect": true
+            },
+            {
+              "id": "cfu_9_b",
+              "text": "Warm water dissolves ocean floor minerals causing sediment swelling",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_9_c",
+              "text": "Evaporated steam pushes coastal tide walls outward",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_9_d",
+              "text": "Heat causes seawater molecules to split into hydrogen gas",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cfu_9_a",
+          "explanation": "Thermal expansion of warming oceans accounts for roughly 40-50% of the sea level rise observed over the past century.",
+          "points": 10
+        },
+        {
+          "id": "cfu_10",
+          "question": "What does 'Radiative Forcing' quantify in climate assessment reports?",
+          "answers": [
+            {
+              "id": "cfu_10_a",
+              "text": "The net change in the Earth's energy balance (Watts per square meter) caused by a climate driver",
+              "isCorrect": true
+            },
+            {
+              "id": "cfu_10_b",
+              "text": "The mechanical strength of nuclear reactor radiation shielding",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_10_c",
+              "text": "The speed of solar wind particles hitting the ionosphere",
+              "isCorrect": false
+            },
+            {
+              "id": "cfu_10_d",
+              "text": "The acoustic force of supersonic aircraft shockwaves",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "cfu_10_a",
+          "explanation": "Positive radiative forcing (like greenhouse gases) warms the planet; negative forcing (like reflective sulfate aerosols) cools it.",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "renewable-energy",
+      "title": "Renewable Energy Technologies & Transition",
+      "description": "Explore photovoltaic generation, grid energy storage, wind aerodynamics, and green hydrogen.",
+      "author": "EcoSprint Climate Academy",
+      "category": "Clean Tech",
+      "questionCount": 10,
+      "timeLimit": 900,
+      "points": 100,
+      "rating": 4.8,
+      "imageUrl": "assets/images/quiz/renewable_energy.png",
+      "videoUrl": "",
+      "questions": [
+        {
+          "id": "re_1",
+          "question": "What semiconductor phenomenon allows solar photovoltaic (PV) cells to generate electricity?",
+          "answers": [
+            {
+              "id": "re_1_a",
+              "text": "Thermoelectric Seebeck effect",
+              "isCorrect": false
+            },
+            {
+              "id": "re_1_b",
+              "text": "Photovoltaic effect exciting valence electrons across a silicon p-n junction",
+              "isCorrect": true
+            },
+            {
+              "id": "re_1_c",
+              "text": "Piezoelectric mechanical pressure conversion",
+              "isCorrect": false
+            },
+            {
+              "id": "re_1_d",
+              "text": "Electromagnetic induction from moving copper coils",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "re_1_b",
+          "explanation": "Photons with sufficient energy knock electrons free from silicon atoms, creating a direct current (DC) electric flow.",
+          "points": 10
+        },
+        {
+          "id": "re_2",
+          "question": "What is the theoretical maximum aerodynamic efficiency for any wind turbine blade design (Betz's Law)?",
+          "answers": [
+            {
+              "id": "re_2_a",
+              "text": "100%",
+              "isCorrect": false
+            },
+            {
+              "id": "re_2_b",
+              "text": "59.3%",
+              "isCorrect": true
+            },
+            {
+              "id": "re_2_c",
+              "text": "78.5%",
+              "isCorrect": false
+            },
+            {
+              "id": "re_2_d",
+              "text": "33.3%",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "re_2_b",
+          "explanation": "Betz's limit proves no turbine can capture more than 16/27 (59.3%) of wind kinetic energy without completely stopping the airflow.",
+          "points": 10
+        },
+        {
+          "id": "re_3",
+          "question": "Which large-scale technology currently provides over 90% of global grid energy storage capacity?",
+          "answers": [
+            {
+              "id": "re_3_a",
+              "text": "Lithium-ion battery megapacks",
+              "isCorrect": false
+            },
+            {
+              "id": "re_3_b",
+              "text": "Pumped-Storage Hydroelectricity (PSH)",
+              "isCorrect": true
+            },
+            {
+              "id": "re_3_c",
+              "text": "Flywheel kinetic energy vaults",
+              "isCorrect": false
+            },
+            {
+              "id": "re_3_d",
+              "text": "Compressed liquid air tanks",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "re_3_b",
+          "explanation": "Pumped hydro pumps water to an elevated reservoir during surplus generation and releases it through turbines when demand peaks.",
+          "points": 10
+        },
+        {
+          "id": "re_4",
+          "question": "What distinguishes 'Green Hydrogen' from 'Grey Hydrogen'?",
+          "answers": [
+            {
+              "id": "re_4_a",
+              "text": "Green hydrogen is dyed with green food coloring for safety",
+              "isCorrect": false
+            },
+            {
+              "id": "re_4_b",
+              "text": "Green hydrogen is produced by water electrolysis powered by renewable electricity with zero emissions",
+              "isCorrect": true
+            },
+            {
+              "id": "re_4_c",
+              "text": "Green hydrogen is extracted exclusively from live algae ponds",
+              "isCorrect": false
+            },
+            {
+              "id": "re_4_d",
+              "text": "Green hydrogen has half the energy density of grey hydrogen",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "re_4_b",
+          "explanation": "Grey hydrogen is split from natural gas via steam methane reforming emitting high CO2; green hydrogen uses renewables and water.",
+          "points": 10
+        },
+        {
+          "id": "re_5",
+          "question": "What does a solar 'Net Metering' policy allow rooftop solar owners to do?",
+          "answers": [
+            {
+              "id": "re_5_a",
+              "text": "Export excess daytime generation to the public grid in exchange for billing credits",
+              "isCorrect": true
+            },
+            {
+              "id": "re_5_b",
+              "text": "Receive free internet service from electrical distribution poles",
+              "isCorrect": false
+            },
+            {
+              "id": "re_5_c",
+              "text": "Disconnect from the utility grid without notifying authorities",
+              "isCorrect": false
+            },
+            {
+              "id": "re_5_d",
+              "text": "Sell battery power to neighbors via Bluetooth",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "re_5_a",
+          "explanation": "Net meters spin bi-directionally, crediting consumers for surplus power pushed into the grid during peak sunny hours.",
+          "points": 10
+        },
+        {
+          "id": "re_6",
+          "question": "Where is the world-renowned Bhadla Solar Park located in India?",
+          "answers": [
+            {
+              "id": "re_6_a",
+              "text": "Thar Desert, Rajasthan",
+              "isCorrect": true
+            },
+            {
+              "id": "re_6_b",
+              "text": "Rann of Kutch, Gujarat",
+              "isCorrect": false
+            },
+            {
+              "id": "re_6_c",
+              "text": "Deccan Plateau, Maharashtra",
+              "isCorrect": false
+            },
+            {
+              "id": "re_6_d",
+              "text": "Sunderbans, West Bengal",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "re_6_a",
+          "explanation": "Bhadla Solar Park spans 14,000 acres in Jodhpur district, Rajasthan, with a total installed capacity exceeding 2,245 MW.",
+          "points": 10
+        },
+        {
+          "id": "re_7",
+          "question": "How does Concentrated Solar Power (CSP) generate electricity differently from photovoltaic panels?",
+          "answers": [
+            {
+              "id": "re_7_a",
+              "text": "It uses mirrors (heliostats) to focus sunlight on a receiver, heating a fluid that drives steam turbines",
+              "isCorrect": true
+            },
+            {
+              "id": "re_7_b",
+              "text": "It catches lightning discharges during solar flares",
+              "isCorrect": false
+            },
+            {
+              "id": "re_7_c",
+              "text": "It produces methane directly from illuminated glass tubes",
+              "isCorrect": false
+            },
+            {
+              "id": "re_7_d",
+              "text": "It requires freezing air to generate an electric voltage",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "re_7_a",
+          "explanation": "CSP thermal heat can be stored in molten salts for hours, providing dispatchable clean electricity even after sunset.",
+          "points": 10
+        },
+        {
+          "id": "re_8",
+          "question": "What is the primary benefit of offshore wind farms compared to onshore wind turbines?",
+          "answers": [
+            {
+              "id": "re_8_a",
+              "text": "Stronger, more consistent marine winds and fewer land footprint conflicts",
+              "isCorrect": true
+            },
+            {
+              "id": "re_8_b",
+              "text": "Offshore turbines do not need electrical cables to transfer power",
+              "isCorrect": false
+            },
+            {
+              "id": "re_8_c",
+              "text": "Ocean water naturally cools the generator so blades can spin 10x faster",
+              "isCorrect": false
+            },
+            {
+              "id": "re_8_d",
+              "text": "Saltwater prevents turbines from experiencing mechanical friction",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "re_8_a",
+          "explanation": "Open sea surfaces lack terrain friction and trees, providing steady high-velocity wind flow that increases capacity factors.",
+          "points": 10
+        },
+        {
+          "id": "re_9",
+          "question": "What is India's national non-fossil power capacity target by the year 2030?",
+          "answers": [
+            {
+              "id": "re_9_a",
+              "text": "100 Gigawatts (GW)",
+              "isCorrect": false
+            },
+            {
+              "id": "re_9_b",
+              "text": "500 Gigawatts (GW)",
+              "isCorrect": true
+            },
+            {
+              "id": "re_9_c",
+              "text": "50 Gigawatts (GW)",
+              "isCorrect": false
+            },
+            {
+              "id": "re_9_d",
+              "text": "1,000 Gigawatts (GW)",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "re_9_a",
+          "explanation": "At COP26, India committed to reaching 500 GW of non-fossil energy capacity by 2030 as part of its Panchamrit climate goals.",
+          "points": 10
+        },
+        {
+          "id": "re_10",
+          "question": "What is 'Agrivoltaics' (Dual-use solar farming)?",
+          "answers": [
+            {
+              "id": "re_10_a",
+              "text": "Simultaneous co-location of agricultural crop cultivation beneath elevated solar panel canopies",
+              "isCorrect": true
+            },
+            {
+              "id": "re_10_b",
+              "text": "Burning agricultural crop stalks inside solar thermal furnaces",
+              "isCorrect": false
+            },
+            {
+              "id": "re_10_c",
+              "text": "Installing solar batteries on tractors exclusively",
+              "isCorrect": false
+            },
+            {
+              "id": "re_10_d",
+              "text": "Using solar power solely to manufacture synthetic fertilizers",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "re_10_a",
+          "explanation": "Agrivoltaics provides partial shade reducing soil moisture evaporation while panels operate cooler from plant evapotranspiration.",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "sdg13-climate-action",
+      "title": "SDG 13 & Global Climate Governance",
+      "description": "Examine the Paris Agreement, international negotiations, NDCs, and climate justice frameworks.",
+      "author": "EcoSprint Climate Academy",
+      "category": "Policy & Governance",
+      "questionCount": 10,
+      "timeLimit": 900,
+      "points": 100,
+      "rating": 4.9,
+      "imageUrl": "assets/images/quiz/sdg13.png",
+      "videoUrl": "",
+      "questions": [
+        {
+          "id": "sdg_1",
+          "question": "What is the primary objective of United Nations Sustainable Development Goal 13 (SDG 13)?",
+          "answers": [
+            {
+              "id": "sdg_1_a",
+              "text": "Achieving universal space exploration by 2030",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_1_b",
+              "text": "Taking urgent action to combat climate change and its impacts",
+              "isCorrect": true
+            },
+            {
+              "id": "sdg_1_c",
+              "text": "Privatizing all municipal water reservoirs",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_1_d",
+              "text": "Banning commercial aviation across developing countries",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "sdg_1_b",
+          "explanation": "SDG 13 urges nations to strengthen resilience, integrate climate measures into policies, and improve climate education.",
+          "points": 10
+        },
+        {
+          "id": "sdg_2",
+          "question": "What is the core long-term temperature target stipulated in the 2015 Paris Agreement?",
+          "answers": [
+            {
+              "id": "sdg_2_a",
+              "text": "Holding warming well below 2.0°C and pursuing efforts to limit it to 1.5°C above pre-industrial levels",
+              "isCorrect": true
+            },
+            {
+              "id": "sdg_2_b",
+              "text": "Allowing temperatures to rise up to 4.0°C before mandatory interventions",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_2_c",
+              "text": "Cooling the global temperature below the pre-industrial average",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_2_d",
+              "text": "Freezing global temperatures exactly at year 2000 levels",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "sdg_2_a",
+          "explanation": "Article 2 of the Paris Agreement commits signatories to holding warming well below 2°C with a target of 1.5°C to avoid extreme risks.",
+          "points": 10
+        },
+        {
+          "id": "sdg_3",
+          "question": "What does the acronym 'NDC' stand for in UN Climate Change negotiations?",
+          "answers": [
+            {
+              "id": "sdg_3_a",
+              "text": "Nationally Determined Contributions",
+              "isCorrect": true
+            },
+            {
+              "id": "sdg_3_b",
+              "text": "Non-Domestic Coal Consumption",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_3_c",
+              "text": "National Desertification Commission",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_3_d",
+              "text": "Natural Disaster Classification",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "sdg_3_a",
+          "explanation": "NDCs are non-binding national climate plans submitted every 5 years outlining emission cuts and adaptation targets.",
+          "points": 10
+        },
+        {
+          "id": "sdg_4",
+          "question": "What does the principle of 'Common But Differentiated Responsibilities' (CBDR) acknowledge?",
+          "answers": [
+            {
+              "id": "sdg_4_a",
+              "text": "All countries must reduce emissions by the exact same tonnage regardless of wealth or size",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_4_b",
+              "text": "Historical polluters bear greater responsibility and capability to lead climate mitigation and provide finance",
+              "isCorrect": true
+            },
+            {
+              "id": "sdg_4_c",
+              "text": "Developing nations must shut down all manufacturing while developed nations expand coal",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_4_d",
+              "text": "Climate action is solely the responsibility of private corporations, not national governments",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "sdg_4_b",
+          "explanation": "CBDR recognizes that developed countries produced most cumulative emissions since 1850 and must assist vulnerable nations.",
+          "points": 10
+        },
+        {
+          "id": "sdg_5",
+          "question": "What breakthrough agreement was reached at COP27 regarding vulnerable nations?",
+          "answers": [
+            {
+              "id": "sdg_5_a",
+              "text": "Establishment of a dedicated 'Loss and Damage' Fund",
+              "isCorrect": true
+            },
+            {
+              "id": "sdg_5_b",
+              "text": "A worldwide ban on private automobile ownership",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_5_c",
+              "text": "Relocation of the United Nations headquarters to Antarctica",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_5_d",
+              "text": "Complete closure of all hydroelectric dams by 2025",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "sdg_5_a",
+          "explanation": "The Loss and Damage Fund assists climate-vulnerable nations facing irreversible impacts beyond the limits of adaptation.",
+          "points": 10
+        },
+        {
+          "id": "sdg_6",
+          "question": "What is the Intergovernmental Panel on Climate Change (IPCC)?",
+          "answers": [
+            {
+              "id": "sdg_6_a",
+              "text": "The UN body that assesses scientific literature to provide objective climate evaluations",
+              "isCorrect": true
+            },
+            {
+              "id": "sdg_6_b",
+              "text": "A private venture capital fund investing in green stocks",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_6_c",
+              "text": "An international police agency enforcing pollution fines",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_6_d",
+              "text": "A commercial company that operates weather forecasting satellites",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "sdg_6_a",
+          "explanation": "Created by WMO and UNEP in 1988, thousands of volunteer scientists synthesize peer-reviewed climate data for policymakers.",
+          "points": 10
+        },
+        {
+          "id": "sdg_7",
+          "question": "What is the targeted year for India to achieve Net-Zero greenhouse gas emissions?",
+          "answers": [
+            {
+              "id": "sdg_7_a",
+              "text": "2050",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_7_b",
+              "text": "2070",
+              "isCorrect": true
+            },
+            {
+              "id": "sdg_7_c",
+              "text": "2030",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_7_d",
+              "text": "2040",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "sdg_7_b",
+          "explanation": "Prime Minister Narendra Modi announced India's formal target of reaching Net-Zero emissions by 2070 at COP26 in Glasgow.",
+          "points": 10
+        },
+        {
+          "id": "sdg_8",
+          "question": "What is 'Climate Adaptation' as distinct from 'Climate Mitigation'?",
+          "answers": [
+            {
+              "id": "sdg_8_a",
+              "text": "Adaptation adjusts human and natural systems to survive current and anticipated climate impacts; mitigation cuts emissions",
+              "isCorrect": true
+            },
+            {
+              "id": "sdg_8_b",
+              "text": "Adaptation means building more coal mines; mitigation means shutting down schools",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_8_c",
+              "text": "Adaptation only applies to polar animals; mitigation applies to desert plants",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_8_d",
+              "text": "Both terms mean exactly the same physical processes in atmospheric chemistry",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "sdg_8_a",
+          "explanation": "Building sea walls, heat-resilient housing, and drought-resistant crops are adaptation; replacing coal with solar is mitigation.",
+          "points": 10
+        },
+        {
+          "id": "sdg_9",
+          "question": "What is the global climate finance goal originally promised to developing nations annually by 2020?",
+          "answers": [
+            {
+              "id": "sdg_9_a",
+              "text": "\\$100 Billion per year",
+              "isCorrect": true
+            },
+            {
+              "id": "sdg_9_b",
+              "text": "\\$1 Billion per year",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_9_c",
+              "text": "\\$10 Trillion per year",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_9_d",
+              "text": "\\$500 Million per year",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "sdg_9_a",
+          "explanation": "At COP15 in Copenhagen (2009), developed nations committed to mobilizing \\$100 billion annually by 2020 for developing nations.",
+          "points": 10
+        },
+        {
+          "id": "sdg_10",
+          "question": "What is India's 'Mission LiFE' (Lifestyle for Environment) global movement launched at COP26?",
+          "answers": [
+            {
+              "id": "sdg_10_a",
+              "text": "Mobilizing individuals worldwide to adopt sustainable daily habits and demand-side pro-planet actions",
+              "isCorrect": true
+            },
+            {
+              "id": "sdg_10_b",
+              "text": "Mandating electronic chip implants to measure heart rates",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_10_c",
+              "text": "Replacing all physical textbooks with virtual reality headsets",
+              "isCorrect": false
+            },
+            {
+              "id": "sdg_10_d",
+              "text": "Constructing underground shelter bunkers for extreme blizzards",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "sdg_10_a",
+          "explanation": "Mission LiFE emphasizes mindful utilization rather than mindless consumption, promoting nudges in energy, water, and waste.",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "circular-economy",
+      "title": "Circular Economy & Waste Upcycling",
+      "description": "Learn closed-loop resource systems, composting biochemistry, e-waste hazards, and plastic lifecycles.",
+      "author": "EcoSprint Climate Academy",
+      "category": "Circular Economy",
+      "questionCount": 10,
+      "timeLimit": 900,
+      "points": 100,
+      "rating": 4.8,
+      "imageUrl": "assets/images/quiz/circular_economy.png",
+      "videoUrl": "",
+      "questions": [
+        {
+          "id": "ce_1",
+          "question": "What is the fundamental shift represented by a Circular Economy compared to a Linear Economy?",
+          "answers": [
+            {
+              "id": "ce_1_a",
+              "text": "Transitioning from 'Take-Make-Dispose' to designing out waste and keeping materials in continuous productive use",
+              "isCorrect": true
+            },
+            {
+              "id": "ce_1_b",
+              "text": "Arranging factory assembly lines in circular shapes instead of straight rows",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_1_c",
+              "text": "Selling products exclusively through online subscription models",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_1_d",
+              "text": "Replacing all metal components with paper substitutes",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "ce_1_a",
+          "explanation": "A circular economy decouples economic activity from finite resource consumption by design.",
+          "points": 10
+        },
+        {
+          "id": "ce_2",
+          "question": "In the waste hierarchy (3 Rs), what is the most environmentally effective intervention?",
+          "answers": [
+            {
+              "id": "ce_2_a",
+              "text": "Source Reduction / Refuse",
+              "isCorrect": true
+            },
+            {
+              "id": "ce_2_b",
+              "text": "Mechanical Recycling",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_2_c",
+              "text": "Incineration with energy recovery",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_2_d",
+              "text": "Landfill bio-capping",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "ce_2_a",
+          "explanation": "Avoiding waste generation in the first place saves 100% of the upstream extraction, processing, and disposal energy.",
+          "points": 10
+        },
+        {
+          "id": "ce_3",
+          "question": "What toxic heavy metal is commonly found in improperly discarded cathode ray tubes and circuit soldering?",
+          "answers": [
+            {
+              "id": "ce_3_a",
+              "text": "Lead (Pb)",
+              "isCorrect": true
+            },
+            {
+              "id": "ce_3_b",
+              "text": "Sodium (Na)",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_3_c",
+              "text": "Calcium (Ca)",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_3_d",
+              "text": "Potassium (K)",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "ce_3_a",
+          "explanation": "Lead causes severe neurotoxicity and kidney damage if leached into groundwater from unlined informal e-waste dumps.",
+          "points": 10
+        },
+        {
+          "id": "ce_4",
+          "question": "What is the optimal Carbon-to-Nitrogen (C:N) ratio for rapid, odor-free aerobic composting?",
+          "answers": [
+            {
+              "id": "ce_4_a",
+              "text": "Roughly 25:1 to 30:1 (2-3 parts dry 'browns' to 1 part fresh 'greens')",
+              "isCorrect": true
+            },
+            {
+              "id": "ce_4_b",
+              "text": "1:100",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_4_c",
+              "text": "1000:1",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_4_d",
+              "text": "1:1 with pure water",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "ce_4_a",
+          "explanation": "Microbes need carbon for cellular energy and nitrogen for protein synthesis; a 30:1 ratio enables fast thermophilic decomposition.",
+          "points": 10
+        },
+        {
+          "id": "ce_5",
+          "question": "What does Resin Identification Code #1 on plastic containers denote?",
+          "answers": [
+            {
+              "id": "ce_5_a",
+              "text": "Polyethylene Terephthalate (PET or PETE)",
+              "isCorrect": true
+            },
+            {
+              "id": "ce_5_b",
+              "text": "Polyvinyl Chloride (PVC)",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_5_c",
+              "text": "Polystyrene (Styrofoam)",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_5_d",
+              "text": "Polycarbonate (PC)",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "ce_5_a",
+          "explanation": "Code 1 is PET, commonly used for beverage bottles and clear jars, and is the most widely recycled plastic resin.",
+          "points": 10
+        },
+        {
+          "id": "ce_6",
+          "question": "What is 'Downcycling' in waste processing?",
+          "answers": [
+            {
+              "id": "ce_6_a",
+              "text": "Recycling a material into a lower quality or less durable product that cannot be recycled again",
+              "isCorrect": true
+            },
+            {
+              "id": "ce_6_b",
+              "text": "Riding a bicycle downhill to save kinetic energy",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_6_c",
+              "text": "Composting wet kitchen waste into rich potting manure",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_6_d",
+              "text": "Refurbishing old laptops to perform faster than new ones",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "ce_6_a",
+          "explanation": "Plastics typically downcycle into carpet fibers or speed bumps, which eventually end up in landfills.",
+          "points": 10
+        },
+        {
+          "id": "ce_7",
+          "question": "Why are single-use plastic multilayer sachets (e.g. chips packets) virtually impossible to mechanically recycle?",
+          "answers": [
+            {
+              "id": "ce_7_a",
+              "text": "They fuse bonded micro-layers of aluminum foil and multiple incompatible plastics (PE, PET) that cannot be separated",
+              "isCorrect": true
+            },
+            {
+              "id": "ce_7_b",
+              "text": "They are too transparent for optical infrared sorters to detect",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_7_c",
+              "text": "The salt inside chips permanently alters the plastic's chemical melting point",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_7_d",
+              "text": "They dissolve instantly into toxic fumes when touched by fresh water",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "ce_7_a",
+          "explanation": "Multilayer packaging combines incompatible polymers with metallic foil, making mechanical separation economically impossible.",
+          "points": 10
+        },
+        {
+          "id": "ce_8",
+          "question": "What is 'Extended Producer Responsibility' (EPR) under India's Plastic and E-Waste Management Rules?",
+          "answers": [
+            {
+              "id": "ce_8_a",
+              "text": "Manufacturers and brand owners are legally responsible for financing the collection and recycling of their post-consumer packaging",
+              "isCorrect": true
+            },
+            {
+              "id": "ce_8_b",
+              "text": "Consumers must pay lifetime insurance fees on all electronic gadgets",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_8_c",
+              "text": "Retail stores must keep inventory on shelves for a minimum of ten years",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_8_d",
+              "text": "Producers must hire municipal sweepers to clean factory parking lots",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "ce_8_a",
+          "explanation": "EPR mandates that producers take financial and operational responsibility for the end-of-life management of their products.",
+          "points": 10
+        },
+        {
+          "id": "ce_9",
+          "question": "What is 'Industrial Symbiosis' in circular engineering parks?",
+          "answers": [
+            {
+              "id": "ce_9_a",
+              "text": "Waste or by-products of one industry become the raw material inputs for another nearby industry",
+              "isCorrect": true
+            },
+            {
+              "id": "ce_9_b",
+              "text": "Two factories merging into a single joint-stock corporation",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_9_c",
+              "text": "Using automated robots to replace human chemical lab technicians",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_9_d",
+              "text": "Plants growing on industrial smokestacks to disguise factory emissions",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "ce_9_a",
+          "explanation": "Exemplified by Kalundborg in Denmark, waste steam, fly ash, and sulfur circulate between power plants, refineries, and plasterboard makers.",
+          "points": 10
+        },
+        {
+          "id": "ce_10",
+          "question": "What is the primary operational objective of the BioRepository peer-to-peer botanical and academic marketplace?",
+          "answers": [
+            {
+              "id": "ce_10_a",
+              "text": "Closing the loop by circulating pre-loved academic supplies and lab gear among college peers, preventing disposal and saving costs",
+              "isCorrect": true
+            },
+            {
+              "id": "ce_10_b",
+              "text": "Encouraging students to discard their textbooks after every midterm exam",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_10_c",
+              "text": "Operating a commercial auction house for luxury items",
+              "isCorrect": false
+            },
+            {
+              "id": "ce_10_d",
+              "text": "Providing free plastic bags for campus convenience stores",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "ce_10_a",
+          "explanation": "BioRepository prevents waste and lowers research expenses through botanical specimen exchanges rewarded with Flora Coins.",
+          "points": 10
+        }
+      ]
+    }
+  ]
+}
