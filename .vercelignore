@@ -1,0 +1,11 @@
+.git
+.dart_tool
+.github
+android
+ios
+linux
+macos
+windows
+test
+data_pipeline
+build
