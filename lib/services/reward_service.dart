@@ -19,7 +19,7 @@ class RewardService {
       id: 'reward_press_100',
       title: 'Herbarium Specimen Voucher Press & Drying Kit',
       description: 'Standard botanical field press with moisture-absorbent blotting boards and geo-tagging labels for wild ethnobotanical voucher collection.',
-      karmaCost: 100,
+      coinsCost: 100,
       icon: Icons.spa_rounded,
       category: 'Herbarium',
       badgeLabel: 'Field Voucher Tool',
@@ -30,7 +30,7 @@ class RewardService {
       id: 'reward_powo_150',
       title: 'POWO Binomial Taxonomy Verification Credit',
       description: 'Submit an unverified field specimen to Kew POWO taxonomists for certified binomial botanical identification and accession cataloging.',
-      karmaCost: 150,
+      coinsCost: 150,
       icon: Icons.verified_rounded,
       category: 'Taxonomy',
       badgeLabel: 'Botanical Validation',
@@ -41,7 +41,7 @@ class RewardService {
       id: 'reward_lcms_250',
       title: 'LC-MS/GC-MS Metabolite Fingerprint Analysis',
       description: 'Subsidized mass spectrometry analysis for secondary bioactive metabolites (alkaloids, flavonoids, terpenoids) at a partner analytical lab.',
-      karmaCost: 250,
+      coinsCost: 250,
       icon: Icons.science_rounded,
       category: 'Cheminformatics',
       badgeLabel: 'Analytical Mass-Spec',
@@ -52,7 +52,7 @@ class RewardService {
       id: 'reward_abs_350',
       title: 'Community ABS Benefit-Sharing Seed Grant',
       description: 'Direct micro-grant allocated to indigenous traditional healers and forest dweller cooperatives under the UN CBD Nagoya Protocol framework.',
-      karmaCost: 350,
+      coinsCost: 350,
       icon: Icons.handshake_rounded,
       category: 'Nagoya ABS',
       badgeLabel: 'Indigenous Sovereignty',
@@ -63,7 +63,7 @@ class RewardService {
       id: 'reward_cert_500',
       title: 'International Nagoya Clearing-House Certified Audit',
       description: 'Official UN Convention on Biological Diversity (CBD) Clearing-House verified certificate guaranteeing sustainable harvesting and zero biopiracy.',
-      karmaCost: 500,
+      coinsCost: 500,
       icon: Icons.workspace_premium_rounded,
       category: 'Nagoya ABS',
       badgeLabel: 'UN CBD Audit',
@@ -86,13 +86,13 @@ class RewardService {
   }
 
   Future<RedeemedVoucher?> redeemReward(AppUser user, RewardItem perk) async {
-    if (user.points < perk.karmaCost) {
+    if (user.points < perk.coinsCost) {
       return null;
     }
 
     // Deduct points
     final userService = UserService();
-    await userService.addUserPoints(user.id, -perk.karmaCost);
+    await userService.addUserPoints(user.id, -perk.coinsCost);
 
     // Generate unique voucher code
     final rnd = Random();
@@ -104,7 +104,7 @@ class RewardService {
       rewardId: perk.id,
       rewardTitle: perk.title,
       voucherCode: code,
-      karmaSpent: perk.karmaCost,
+      coinsSpent: perk.coinsCost,
       redeemedAt: DateTime.now(),
       instructions: perk.voucherInstructions,
     );

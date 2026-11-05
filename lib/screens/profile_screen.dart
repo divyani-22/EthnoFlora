@@ -10,7 +10,7 @@ import '../services/user_service.dart';
 import '../utils/transitions.dart';
 import '../theme/app_theme.dart';
 import 'main_screen.dart';
-import 'karma_canteen_screen.dart';
+import 'nagoya_grants_screen.dart';
 
 class ProfileScreen extends StatefulWidget {
   final AppUser user;
@@ -365,7 +365,7 @@ class _ProfileScreenState extends State<ProfileScreen> with TickerProviderStateM
                     onTap: () async {
                       await Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (_) => const KarmaCanteenScreen()),
+                        MaterialPageRoute(builder: (_) => const NagoyaGrantsScreen()),
                       );
                       _loadUserData();
                     },
@@ -468,7 +468,7 @@ class _ProfileScreenState extends State<ProfileScreen> with TickerProviderStateM
               onTap: () async {
                 await Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (_) => const KarmaCanteenScreen()),
+                  MaterialPageRoute(builder: (_) => const NagoyaGrantsScreen()),
                 );
                 _loadUserData();
               },

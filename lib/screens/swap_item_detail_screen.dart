@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../models/swap_item.dart';
-import '../services/yuvaswap_service.dart';
+import '../services/biorepository_service.dart';
 import '../theme/app_theme.dart';
 
 class SwapItemDetailScreen extends StatefulWidget {

@@ -562,7 +562,7 @@ Integrated 15 shared campus electric scooters with dedicated solar charging dock
 During the trial week, participants collectively logged 4,200 shared kilometers, preventing 860 kg of CO2 emissions.
 Demonstrated a 35% reduction in morning vehicular congestion along the narrow Bibwewadi campus access roads.
 Commuters who logged more than 4 rides earned priority parking passes and special discount coupons at the canteen.
-Check your updated BioFlora wallet to verify your commute rewards and keep sharing rides every semester!""",
+Check your updated Flora Coins wallet to verify your commute rewards and keep sharing rides every semester!""",
           "location": "VIT Main Gate & Student Parking Quadrangle, Pune",
           "communityName": "VIT Smart Commute Cell",
           "mapUrl": "https://maps.google.com/?q=VIT+Pune",
@@ -1449,7 +1449,7 @@ Successfully replaced single-use polythene wrappers and disposable plastic cups 
 Students conducted interactive awareness kiosks educating peers on ocean microplastic pollution.
 Audit showed a 75% drop in single-use plastic waste generation in campus trash bins over one week.
 Volunteers helped set up a permanent bag sharing station at the campus student convenience store.
-Check out the event gallery and your BioFlora badge rewards in the EthnoFlora AI profile!""",
+Check out the event gallery and your Flora Research badge rewards in the EthnoFlora AI profile!""",
         "location": "Student Activity Centre & Food Court",
         "communityName": "EthnoFlora AI Action League",
         "mapUrl": "https://maps.google.com/?q=Student+Activity+Centre",

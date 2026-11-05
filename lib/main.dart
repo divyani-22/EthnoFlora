@@ -11,11 +11,11 @@ import 'screens/main_screen.dart';
 import 'screens/climasights_screen.dart';
 import 'screens/quiz_detail_screen.dart';
 import 'screens/profile_picture_upload_screen.dart';
-import 'screens/climagame_test_screen.dart';
+// climagame test removed
 import 'models/quiz.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'theme/app_theme.dart';
-import 'screens/yuvaswap_screen.dart';
+import 'screens/biorepository_screen.dart';
 import 'services/quiz_service.dart';
 import 'utils/supabase_config.dart';
 import 'utils/env_config.dart';
@@ -113,7 +113,7 @@ class EthnoFloraApp extends StatelessWidget {
             return AppTransitions.slideFromRight(AuthScreen());
           case '/home':
             return AppTransitions.slideFromRight(MainScreen());
-          case '/yuvaswap':
+          case '/biorepository':
             return AppTransitions.slideFromRight(const BioRepositoryScreen());
           case '/quiz-detail':
             final args = settings.arguments;
@@ -160,8 +160,7 @@ class EthnoFloraApp extends StatelessWidget {
               );
             }
             return AppTransitions.slideFromBottom(climasightsScreen);
-          case '/climagame-test':
-            return AppTransitions.slideFromRight(ClimaGameTestScreen());
+          
           default:
             return AppTransitions.fadeTransition(SplashScreen());
         }

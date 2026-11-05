@@ -7,14 +7,14 @@ import '../services/reward_service.dart';
 import '../services/user_service.dart';
 import '../theme/app_theme.dart';
 
-class KarmaCanteenScreen extends StatefulWidget {
-  const KarmaCanteenScreen({super.key});
+class NagoyaGrantsScreen extends StatefulWidget {
+  const NagoyaGrantsScreen({super.key});
 
   @override
-  State<KarmaCanteenScreen> createState() => _KarmaCanteenScreenState();
+  State<NagoyaGrantsScreen> createState() => _NagoyaGrantsScreenState();
 }
 
-class _KarmaCanteenScreenState extends State<KarmaCanteenScreen> {
+class _NagoyaGrantsScreenState extends State<NagoyaGrantsScreen> {
   final RewardService _rewardService = RewardService();
   final UserService _userService = UserService();
 
@@ -61,11 +61,11 @@ class _KarmaCanteenScreenState extends State<KarmaCanteenScreen> {
 
   Future<void> _handleRedeem(RewardItem perk) async {
     if (_user == null) return;
-    if (_user!.points < perk.karmaCost) {
+    if (_user!.points < perk.coinsCost) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(
-            'Need ${perk.karmaCost - _user!.points} more Flora Coins to claim this research grant!',
+            'Need ${perk.coinsCost - _user!.points} more Flora Coins to claim this research grant!',
             style: GoogleFonts.plusJakartaSans(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           backgroundColor: AppColors.solidBlack,
@@ -110,7 +110,7 @@ class _KarmaCanteenScreenState extends State<KarmaCanteenScreen> {
             Text(perk.title, style: GoogleFonts.plusJakartaSans(fontWeight: FontWeight.w700, fontSize: 15, color: AppColors.solidBlack)),
             const SizedBox(height: 10),
             Text(
-              'This will allocate ${perk.karmaCost} Flora Coins from your balance to this research grant and issue a verified Nagoya ABS Digital Certificate.',
+              'This will allocate ${perk.coinsCost} Flora Coins from your balance to this research grant and issue a verified Nagoya ABS Digital Certificate.',
               style: GoogleFonts.plusJakartaSans(fontSize: 13, color: AppColors.solidBlack.withValues(alpha: 0.8), height: 1.4),
             ),
             const SizedBox(height: 14),
@@ -125,7 +125,7 @@ class _KarmaCanteenScreenState extends State<KarmaCanteenScreen> {
                 children: [
                   const Icon(Icons.stars_rounded, color: AppColors.solidBlack, size: 18),
                   const SizedBox(width: 8),
-                  Text('Allocation: ${perk.karmaCost} Flora Coins', style: GoogleFonts.plusJakartaSans(fontWeight: FontWeight.w800, fontSize: 13, color: AppColors.solidBlack)),
+                  Text('Allocation: ${perk.coinsCost} Flora Coins', style: GoogleFonts.plusJakartaSans(fontWeight: FontWeight.w800, fontSize: 13, color: AppColors.solidBlack)),
                 ],
               ),
             ),
@@ -339,7 +339,7 @@ class _KarmaCanteenScreenState extends State<KarmaCanteenScreen> {
                                         Container(
                                           padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                           decoration: BoxDecoration(color: AppColors.sageGreen, borderRadius: BorderRadius.circular(8), border: Border.all(color: AppColors.solidBlack, width: 1.2)),
-                                          child: Text('${v.karmaSpent} Flora Coins', style: GoogleFonts.plusJakartaSans(fontSize: 11, fontWeight: FontWeight.w800)),
+                                          child: Text('${v.coinsSpent} Flora Coins', style: GoogleFonts.plusJakartaSans(fontSize: 11, fontWeight: FontWeight.w800)),
                                         ),
                                       ],
                                     ),
@@ -509,7 +509,7 @@ class _KarmaCanteenScreenState extends State<KarmaCanteenScreen> {
 
                     // Rewards List
                     ..._filteredRewards.map((perk) {
-                      final hasEnough = (_user?.points ?? 120) >= perk.karmaCost;
+                      final hasEnough = (_user?.points ?? 120) >= perk.coinsCost;
                       return Padding(
                         padding: const EdgeInsets.only(bottom: 16),
                         child: NeoCard(
@@ -556,7 +556,7 @@ class _KarmaCanteenScreenState extends State<KarmaCanteenScreen> {
                                       children: [
                                         const Icon(Icons.stars_rounded, size: 16, color: AppColors.solidBlack),
                                         const SizedBox(width: 6),
-                                        Text('${perk.karmaCost} Flora Coins', style: GoogleFonts.plusJakartaSans(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.solidBlack)),
+                                        Text('${perk.coinsCost} Flora Coins', style: GoogleFonts.plusJakartaSans(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.solidBlack)),
                                       ],
                                     ),
                                   ),
@@ -575,7 +575,7 @@ class _KarmaCanteenScreenState extends State<KarmaCanteenScreen> {
                                       children: [
                                         Icon(hasEnough ? Icons.check_circle_outline_rounded : Icons.lock_outline_rounded, size: 16, color: AppColors.solidBlack),
                                         const SizedBox(width: 6),
-                                        Text(hasEnough ? 'Claim Grant' : 'Need ${perk.karmaCost - (_user?.points ?? 120)} more', style: GoogleFonts.plusJakartaSans(fontSize: 13, fontWeight: FontWeight.w800)),
+                                        Text(hasEnough ? 'Claim Grant' : 'Need ${perk.coinsCost - (_user?.points ?? 120)} more', style: GoogleFonts.plusJakartaSans(fontSize: 13, fontWeight: FontWeight.w800)),
                                       ],
                                     ),
                                   ),

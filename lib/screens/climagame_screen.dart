@@ -11,7 +11,7 @@ import '../widgets/ecore_mission_modal.dart';
 import '../theme/app_theme.dart';
 import 'main_screen.dart';
 import 'package:url_launcher/url_launcher.dart';
-import '../widgets/green_rush_radar_map.dart';
+import '../widgets/ethno_radar_map.dart';
 
 class ClimaGameScreen extends StatefulWidget {
   final AppUser user;

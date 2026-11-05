@@ -182,11 +182,7 @@ class _MissionDetailScreenState extends State<MissionDetailScreen> {
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            SvgPicture.asset(
-                              'assets/icons/green_points.svg',
-                              width: 16,
-                              height: 16,
-                            ),
+                            const Icon(Icons.stars_rounded, size: 16, color: Colors.black),
                             const SizedBox(width: 4),
                             Text(
                               '${widget.mission.points}',

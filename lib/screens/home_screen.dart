@@ -31,9 +31,9 @@ import 'notifications_screen.dart';
 
 import '../utils/transitions.dart';
 import '../theme/app_theme.dart';
-import '../widgets/green_rush_radar_map.dart';
+import '../widgets/ethno_radar_map.dart';
 import '../services/language_service.dart';
-import 'karma_canteen_screen.dart';
+import 'nagoya_grants_screen.dart';
 import '../services/aqi_service.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -410,7 +410,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                     const SizedBox(height: 16),
                     _buildWeeklyProgressCard(),
                     const SizedBox(height: 16),
-                    _buildKarmaCanteenBanner(),
+                    _buildNagoyaGrantsBanner(),
                     const SizedBox(height: 22),
                     _buildFeatureShowcaseGrid(),
                     const SizedBox(height: 22),
@@ -838,7 +838,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
             onTap: () async {
               await Navigator.push(
                 context,
-                MaterialPageRoute(builder: (_) => const KarmaCanteenScreen()),
+                MaterialPageRoute(builder: (_) => const NagoyaGrantsScreen()),
               );
               if (mounted) {
                 _loadData();
@@ -981,7 +981,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   }
 
   /// Dedicated Nagoya ABS Bio-Repository Promo Banner
-  Widget _buildKarmaCanteenBanner() {
+  Widget _buildNagoyaGrantsBanner() {
     return NeoCard(
       color: AppColors.paperCream,
       radius: 20,
@@ -991,7 +991,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       onTap: () async {
         await Navigator.push(
           context,
-          MaterialPageRoute(builder: (_) => const KarmaCanteenScreen()),
+          MaterialPageRoute(builder: (_) => const NagoyaGrantsScreen()),
         );
         if (mounted) {
           _loadData();
@@ -1318,7 +1318,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
               title: 'EthnoFlora',
               subtitle: 'Botanical Knowledge',
               badgeText: '🌿 30 Species',
-              imagePath: 'assets/images/yuva_swap.png',
+              imagePath: '',
               fallbackIcon: Icons.local_florist_rounded,
               pillColor: AppColors.leafGreen,
               onTap: () {
@@ -1332,7 +1332,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
               title: 'PhytoChem',
               subtitle: 'Cheminformatics Screen',
               badgeText: '🧪 SMILES / Lipinski',
-              imagePath: 'assets/images/green_rush.png',
+              imagePath: '',
               fallbackIcon: Icons.science_rounded,
               pillColor: AppColors.sageGreen,
               onTap: () {
@@ -1346,7 +1346,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
               title: 'HDI Safety',
               subtitle: 'Herb-Drug Interactions',
               badgeText: '⚠️ CYP450 Engine',
-              imagePath: 'assets/images/yuva_sense.png',
+              imagePath: '',
               fallbackIcon: Icons.shield_rounded,
               pillColor: AppColors.dustyCoral,
               onTap: () {
@@ -1360,7 +1360,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
               title: 'PhytoDoc AI',
               subtitle: 'Clinical Consultant',
               badgeText: '🤖 Gemini 1.5 Pro',
-              imagePath: 'assets/images/yuva_vibe.png',
+              imagePath: '',
               fallbackIcon: Icons.psychology_rounded,
               pillColor: AppColors.butterYellow,
               onTap: () {
@@ -1408,13 +1408,24 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
-                    Image.asset(
-                      imagePath,
-                      fit: BoxFit.cover,
-                      errorBuilder: (_, __, ___) => Container(
-                        color: pillColor,
-                        child: Center(
-                          child: Icon(fallbackIcon, size: 36, color: AppColors.solidBlack),
+                    Container(
+                      color: pillColor.withValues(alpha: 0.35),
+                      child: Center(
+                        child: Container(
+                          padding: const EdgeInsets.all(10),
+                          decoration: BoxDecoration(
+                            color: AppColors.pureWhite,
+                            shape: BoxShape.circle,
+                            border: Border.all(color: AppColors.solidBlack, width: 2.0),
+                            boxShadow: const [
+                              BoxShadow(
+                                color: AppColors.solidBlack,
+                                offset: Offset(2, 2),
+                                blurRadius: 0,
+                              ),
+                            ],
+                          ),
+                          child: Icon(fallbackIcon, size: 28, color: AppColors.solidBlack),
                         ),
                       ),
                     ),

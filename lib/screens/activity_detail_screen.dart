@@ -221,11 +221,7 @@ class _ActivityDetailScreenState extends State<ActivityDetailScreen> {
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            SvgPicture.asset(
-                              'assets/icons/green_points.svg',
-                              width: 16,
-                              height: 16,
-                            ),
+                            const Icon(Icons.stars_rounded, size: 16, color: Colors.black),
                             SizedBox(width: 4),
                             Text(
                               '${widget.activity.points}',

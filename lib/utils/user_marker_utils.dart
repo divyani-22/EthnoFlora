@@ -35,14 +35,14 @@ class UserMarkerUtils {
 
     try {
       final assetPath =
-          _schoolMarkerAssets[schoolId] ?? 'assets/images/climagame_user.png';
+          _schoolMarkerAssets[schoolId] ?? 'assets/images/tree.png';
       final descriptor =
           await _loadBitmapDescriptor(assetPath, width: 50);
       _iconCache[schoolId] = descriptor;
       return descriptor;
     } catch (e) {
       debugPrint('Error loading bitmap for $schoolId: $e');
-      final fallback = await _loadBitmapDescriptor('assets/images/climagame_user.png', width: 50);
+      final fallback = await _loadBitmapDescriptor('assets/images/tree.png', width: 50);
       _iconCache[schoolId] = fallback;
       return fallback;
     }

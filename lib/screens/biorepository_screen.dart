@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../models/swap_item.dart';
-import '../services/yuvaswap_service.dart';
+import '../services/biorepository_service.dart';
 import '../theme/app_theme.dart';
 import 'create_swap_item_screen.dart';
 import 'swap_item_detail_screen.dart';

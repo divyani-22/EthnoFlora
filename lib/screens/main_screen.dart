@@ -463,7 +463,7 @@ class MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
             ),
             const SizedBox(height: 2),
             Text(
-              'BioFlora',
+              'Flora Coins',
               style: GoogleFonts.plusJakartaSans(
                 fontSize: 10,
                 fontWeight: isSelected ? FontWeight.bold : FontWeight.w600,
